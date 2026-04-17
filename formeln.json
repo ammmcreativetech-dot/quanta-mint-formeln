@@ -997,5 +997,435 @@
     ],
     "abiturRelevant": true,
     "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "hookes-gesetz",
+    "name": "Hookesches Gesetz (Federkraft)",
+    "latex": "F = k \\cdot x",
+    "symbol": "F = k·x",
+    "kategorie": "physik",
+    "unterkategorie": "Mechanik",
+    "beschreibung": "Das Hookesche Gesetz beschreibt die lineare Beziehung zwischen Federkraft und Auslenkung — Grundlage für Schwingungen, Federmanometer und Werkstoffmechanik.",
+    "einheiten": "F in Newton [N], k in N/m, x in Meter [m]",
+    "variablen": [
+      {
+        "symbol": "F",
+        "bedeutung": "Federkraft (rücktreibende Kraft)",
+        "einheit": "N"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Federkonstante (Steifigkeit des Systems)",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "x",
+        "bedeutung": "Auslenkung aus der Ruhelage",
+        "einheit": "m"
+      }
+    ],
+    "hintergrund": "Robert Hooke (1678) entdeckte: Die Kraft einer Feder ist proportional zur Auslenkung. Gilt nur im elastischen Bereich, bis zur Proportionalitätsgrenze. Die Federkonstante k charakterisiert die Steifigkeit des Systems. Gespeicherte Federenergie: E = ½kx².",
+    "beispiel": "Eine Feder mit k = 200 N/m wird um x = 0,05 m (5 cm) gedehnt: F = 200 · 0,05 = 10 N. Gespeicherte Energie: E = ½ · 200 · 0,0025 = 0,25 J.",
+    "anwendung": "Federmanometer, Schwingungssysteme, Werkstoffprüfung, Seismographen, Federwaagen, Stoßdämpfer",
+    "quellen": [
+      "Hooke, R. (1678). De Potentia Restitutiva. London."
+    ],
+    "verwandte": [
+      "newton-zweites-gesetz",
+      "energie-kinetisch",
+      "energie-potentiell"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "waermekapazitaet",
+    "name": "Wärmekapazität — Q = m·c·ΔT",
+    "latex": "Q = m \\cdot c \\cdot \\Delta T",
+    "symbol": "Q = m·c·ΔT",
+    "kategorie": "physik",
+    "unterkategorie": "Thermodynamik",
+    "beschreibung": "Die Formel der spezifischen Wärmekapazität beschreibt, wie viel Wärmeenergie ein Stoff aufnimmt — essenziell für Kalorimetrie, Reaktionsenthalpien und Wärmetransport.",
+    "einheiten": "Q in Joule [J], m in kg, c in J/(kg·K), ΔT in Kelvin [K]",
+    "variablen": [
+      {
+        "symbol": "Q",
+        "bedeutung": "Wärmemenge (aufgenommene / abgegebene Energie)",
+        "einheit": "J"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Masse des Stoffes",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Spezifische Wärmekapazität (Wasser: 4182 J/(kg·K))",
+        "einheit": "J/(kg·K)"
+      },
+      {
+        "symbol": "ΔT",
+        "bedeutung": "Temperaturänderung (T₂ − T₁)",
+        "einheit": "K"
+      }
+    ],
+    "hintergrund": "Wasser hat eine außergewöhnlich hohe Wärmekapazität (c = 4182 J/(kg·K)) — deshalb reguliert es das Klima. Metalle haben niedrige c-Werte (Eisen: 450 J/(kg·K)). Kalorimetrie nutzt diese Formel zur Bestimmung von Reaktionswärmen.",
+    "beispiel": "500 g Wasser (c = 4182 J/(kg·K)) werden von 20 °C auf 60 °C erhitzt: Q = 0,5 · 4182 · 40 = 83 640 J ≈ 83,6 kJ.",
+    "anwendung": "Kalorimetrie, Reaktionsenthalpie-Bestimmung, Wärmeleitung, Klimaphysik, Heizungstechnik",
+    "quellen": [
+      "Atkins, P.W. & de Paula, J. (2013). Physikalische Chemie. Wiley-VCH."
+    ],
+    "verwandte": [
+      "ideales-gasgesetz",
+      "gibbs-energie",
+      "wirkungsgrad-carnot"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "brechungsgesetz-snellius",
+    "name": "Snelliussches Brechungsgesetz",
+    "latex": "n_1 \\cdot \\sin(\\alpha_1) = n_2 \\cdot \\sin(\\alpha_2)",
+    "symbol": "n₁·sin(α₁) = n₂·sin(α₂)",
+    "kategorie": "physik",
+    "unterkategorie": "Optik",
+    "beschreibung": "Das Brechungsgesetz nach Snellius beschreibt, wie Lichtstrahlen beim Übergang zwischen zwei Medien gebrochen werden — Grundlage für Linsen, Glasfaser und Optik.",
+    "einheiten": "n dimensionslos, α in Grad [°] oder Radiant [rad]",
+    "variablen": [
+      {
+        "symbol": "n₁",
+        "bedeutung": "Brechungsindex des ersten Mediums",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "n₂",
+        "bedeutung": "Brechungsindex des zweiten Mediums",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "α₁",
+        "bedeutung": "Einfallswinkel (zur Normalen)",
+        "einheit": "°"
+      },
+      {
+        "symbol": "α₂",
+        "bedeutung": "Brechungswinkel (zur Normalen)",
+        "einheit": "°"
+      }
+    ],
+    "hintergrund": "Willebrord Snell (1621) formulierte das Gesetz aus Fermats Prinzip der kürzesten Zeit. Totalreflexion tritt auf, wenn n₁ > n₂ und der Einfallswinkel den kritischen Winkel überschreitet: α_krit = arcsin(n₂/n₁). Glasfaserkabel basieren auf diesem Prinzip.",
+    "beispiel": "Licht von Luft (n₁ = 1,00) in Glas (n₂ = 1,50), α₁ = 30°: sin(α₂) = (1,00/1,50)·sin(30°) = 0,333 → α₂ = arcsin(0,333) ≈ 19,5°.",
+    "anwendung": "Optische Linsen, Prismen, Glasfaserkabel, Endoskopie, Regenbogen-Physik, Lichtmikroskopie",
+    "quellen": [
+      "Born, M. & Wolf, E. (1999). Principles of Optics, 7th Ed. Cambridge University Press."
+    ],
+    "verwandte": [
+      "de-broglie-wellenlaenge",
+      "lorentzkraft",
+      "photoeffekt-einstein"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "heisenberg-unschaerfe",
+    "name": "Heisenbergsche Unschärferelation",
+    "latex": "\\Delta x \\cdot \\Delta p \\geq \\frac{\\hbar}{2}",
+    "symbol": "Δx · Δp ≥ ℏ/2",
+    "kategorie": "physik",
+    "unterkategorie": "Quantenmechanik",
+    "beschreibung": "Die Unschärferelation setzt eine fundamentale Grenze für die gleichzeitige Bestimmbarkeit von Ort und Impuls — kein Messproblem, sondern eine Eigenschaft der Quantennatur.",
+    "einheiten": "Δx in m, Δp in kg·m/s, ℏ = h/(2π) ≈ 1,055 × 10⁻³⁴ J·s",
+    "variablen": [
+      {
+        "symbol": "Δx",
+        "bedeutung": "Standardabweichung des Ortes",
+        "einheit": "m"
+      },
+      {
+        "symbol": "Δp",
+        "bedeutung": "Standardabweichung des Impulses",
+        "einheit": "kg·m/s"
+      },
+      {
+        "symbol": "ℏ",
+        "bedeutung": "Reduziertes Plancksches Wirkungsquantum (h/2π)",
+        "einheit": "J·s"
+      }
+    ],
+    "hintergrund": "Werner Heisenberg (1927) zeigte: Je genauer der Ort, desto unschärfer der Impuls — und umgekehrt. Dies ist fundamental, nicht messtechnisch bedingt. Energie-Zeit-Unschärfe: ΔE·Δt ≥ ℏ/2.",
+    "beispiel": "Elektron (m = 9,11×10⁻³¹ kg), Ort auf Δx = 10⁻¹⁰ m lokalisiert: Δp ≥ ℏ/(2·Δx) = 1,055×10⁻³⁴/(2·10⁻¹⁰) ≈ 5,3×10⁻²⁵ kg·m/s. Geschwindigkeits-Unschärfe: Δv ≈ 5,8×10⁵ m/s.",
+    "anwendung": "Quantenchemie, Tunneleffekt, Atomstruktur, MRI-Spektroskopie, Halbleiter-Physik",
+    "quellen": [
+      "Heisenberg, W. (1927). Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik. Zeitschrift für Physik, 43, 172–198."
+    ],
+    "verwandte": [
+      "de-broglie-wellenlaenge",
+      "photoeffekt-einstein",
+      "normalverteilung"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "universitaet"
+  },
+  {
+    "slug": "massenwirkungsgesetz",
+    "name": "Massenwirkungsgesetz (Gleichgewichtskonstante)",
+    "latex": "K_c = \\frac{[C]^c \\cdot [D]^d}{[A]^a \\cdot [B]^b}",
+    "symbol": "Kc = [C]ᶜ·[D]ᵈ / ([A]ᵃ·[B]ᵇ)",
+    "kategorie": "chemie",
+    "unterkategorie": "Reaktionskinetik",
+    "beschreibung": "Das Massenwirkungsgesetz (MWG) beschreibt das chemische Gleichgewicht: Das stöchiometrisch gewichtete Verhältnis der Gleichgewichtskonzentrationen von Produkten zu Edukten ist konstant.",
+    "einheiten": "Kc dimensionslos (Konzentrationen in mol/L)",
+    "variablen": [
+      {
+        "symbol": "Kc",
+        "bedeutung": "Gleichgewichtskonstante (konzentrationsbezogen)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "[C],[D]",
+        "bedeutung": "Gleichgewichtskonzentrationen der Produkte",
+        "einheit": "mol/L"
+      },
+      {
+        "symbol": "[A],[B]",
+        "bedeutung": "Gleichgewichtskonzentrationen der Edukte",
+        "einheit": "mol/L"
+      },
+      {
+        "symbol": "a,b,c,d",
+        "bedeutung": "Stöchiometrische Koeffizienten",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Guldberg & Waage (1864) formulierten das MWG. Kc >> 1: Gleichgewicht auf Produktseite. Kc << 1: Gleichgewicht auf Eduktseite. Le-Chatelier-Prinzip: Konzentrations-, Druck- oder Temperaturänderung verschiebt das Gleichgewicht kompensatorisch.",
+    "beispiel": "N₂ + 3H₂ ⇌ 2NH₃. Bei [N₂] = 0,5, [H₂] = 0,5, [NH₃] = 0,1 mol/L: Kc = (0,1)² / (0,5·(0,5)³) = 0,01/0,0625 = 0,16.",
+    "anwendung": "Haber-Bosch-Verfahren (NH₃-Synthese), Säure-Base-Gleichgewichte, Pufferberechnung, Löslichkeitsprodukt",
+    "quellen": [
+      "Guldberg, C.M. & Waage, P. (1864). Studier over Affiniteten. Christiania."
+    ],
+    "verwandte": [
+      "henderson-hasselbalch",
+      "nernst-gleichung",
+      "gibbs-energie"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "ph-definition",
+    "name": "pH-Wert-Definition",
+    "latex": "pH = -\\lg([\\text{H}_3\\text{O}^+])",
+    "symbol": "pH = −lg[H₃O⁺]",
+    "kategorie": "chemie",
+    "unterkategorie": "Säure-Base",
+    "beschreibung": "Der pH-Wert ist der negative dekadische Logarithmus der Hydronium-Ionen-Konzentration — die universelle Skala für Säure und Base in der Chemie.",
+    "einheiten": "pH dimensionslos, [H₃O⁺] in mol/L",
+    "variablen": [
+      {
+        "symbol": "pH",
+        "bedeutung": "Negativer dekadischer Logarithmus der H₃O⁺-Konzentration",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "[H₃O⁺]",
+        "bedeutung": "Hydronium-Ionen-Konzentration",
+        "einheit": "mol/L"
+      },
+      {
+        "symbol": "pOH",
+        "bedeutung": "Negativer Logarithmus der OH⁻-Konzentration; pH + pOH = 14",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Søren Sørensen (1909) führte den pH-Wert ein. Bei 25 °C: pH + pOH = 14 (Ionenprodukt des Wassers Kw = 10⁻¹⁴). pH < 7: sauer, pH = 7: neutral, pH > 7: basisch. Für starke Säuren: pH = −lg(c).",
+    "beispiel": "0,01 mol/L HCl (vollständig dissoziiert): [H₃O⁺] = 0,01 mol/L. pH = −lg(0,01) = −lg(10⁻²) = 2. Cola: pH ≈ 2,5 · Blut: pH = 7,4.",
+    "anwendung": "Biochemie (Enzymoptima), Medizin (Blut-pH), Lebensmitteltechnologie, Wasseraufbereitung, Analytische Chemie",
+    "quellen": [
+      "Sørensen, S.P.L. (1909). Enzymstudien. Biochemische Zeitschrift, 21, 131–304."
+    ],
+    "verwandte": [
+      "henderson-hasselbalch",
+      "massenwirkungsgesetz",
+      "nernst-gleichung"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "lambert-beer-gesetz",
+    "name": "Lambert-Beersches Gesetz (Photometrie)",
+    "latex": "A = \\varepsilon \\cdot c \\cdot d",
+    "symbol": "A = ε·c·d",
+    "kategorie": "chemie",
+    "unterkategorie": "Spektroskopie",
+    "beschreibung": "Das Lambert-Beer-Gesetz verknüpft die Extinktion (Absorbanz) einer Lösung mit ihrer Konzentration und Schichtdicke — Grundlage der UV/Vis-Spektroskopie und quantitativen Analytik.",
+    "einheiten": "A dimensionslos, ε in L·mol⁻¹·cm⁻¹, c in mol/L, d in cm",
+    "variablen": [
+      {
+        "symbol": "A",
+        "bedeutung": "Extinktion (Absorbanz) = lg(I₀/I)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "ε",
+        "bedeutung": "Molarer dekadischer Extinktionskoeffizient (stoffspezifisch)",
+        "einheit": "L·mol⁻¹·cm⁻¹"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Molare Konzentration des absorbierenden Stoffs",
+        "einheit": "mol/L"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Schichtdicke der Küvette",
+        "einheit": "cm"
+      }
+    ],
+    "hintergrund": "Johann Lambert (1760) und August Beer (1852) formulierten das Gesetz unabhängig. Gültig im linearen Bereich (A < 1,0). Abweichungen bei hohen Konzentrationen. ELISA, HPLC-Detektion und Glukose-Sensoren basieren darauf.",
+    "beispiel": "Protein (ε = 40 000 L·mol⁻¹·cm⁻¹), Küvette d = 1 cm, c = 10⁻⁵ mol/L: A = 40 000 · 10⁻⁵ · 1 = 0,40. Transmission: T = 10⁻⁰·⁴⁰ ≈ 40 %.",
+    "anwendung": "UV/Vis-Spektroskopie, Proteinkonzentrationsbestimmung (BCA, Bradford), ELISA, Enzymassays, Wasseranalytik",
+    "quellen": [
+      "Beer, A. (1852). Bestimmung der Absorption des rothen Lichts in farbigen Flüssigkeiten. Annalen der Physik, 162, 78–88."
+    ],
+    "verwandte": [
+      "arrhenius-gleichung",
+      "nernst-gleichung",
+      "massenwirkungsgesetz"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "potenzregel",
+    "name": "Potenzregel der Differentiation",
+    "latex": "\\frac{d}{dx}(x^n) = n \\cdot x^{n-1}",
+    "symbol": "d/dx(xⁿ) = n·xⁿ⁻¹",
+    "kategorie": "mathematik",
+    "unterkategorie": "Analysis",
+    "beschreibung": "Die Potenzregel ist die fundamentalste Ableitungsregel: Sie erlaubt die Ableitung jedes Monoms unmittelbar — Einstieg in die gesamte Differentialrechnung.",
+    "einheiten": "Dimensionslos (abstrakt)",
+    "variablen": [
+      {
+        "symbol": "x",
+        "bedeutung": "Unabhängige Variable",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Exponent (beliebige reelle Zahl)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "d/dx",
+        "bedeutung": "Ableitungsoperator nach x",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Newton und Leibniz entwickelten die Differentialrechnung (1670er). Die Potenzregel gilt für alle reellen n: n = 0 (Konstante → 0), n = 1 (linear → 1), n = −1 (1/x → −1/x²), n = 1/2 (√x → 1/(2√x)).",
+    "beispiel": "f(x) = 3x⁴ → f'(x) = 12x³. g(x) = x⁻² → g'(x) = −2x⁻³. h(x) = √x = x^(1/2) → h'(x) = (1/2)x^(−1/2) = 1/(2√x).",
+    "anwendung": "Physik (Geschwindigkeit/Beschleunigung), Optimierungsprobleme, Ingenieurwesen, Ökonometrie, Signalverarbeitung",
+    "quellen": [
+      "Forster, O. (2016). Analysis 1. Springer Vieweg."
+    ],
+    "verwandte": [
+      "produktregel-ableitung",
+      "kettenregel-ableitung",
+      "taylor-reihe"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "michaelis-menten",
+    "name": "Michaelis-Menten-Kinetik (Enzymkinetik)",
+    "latex": "v = \\frac{V_{\\max} \\cdot [S]}{K_m + [S]}",
+    "symbol": "v = Vmax·[S] / (Km + [S])",
+    "kategorie": "biologie",
+    "unterkategorie": "Biochemie",
+    "beschreibung": "Die Michaelis-Menten-Gleichung beschreibt die Abhängigkeit der Enzymreaktionsgeschwindigkeit von der Substratkonzentration — zentrales Modell der Enzymkinetik.",
+    "einheiten": "v in mol/(L·s), Vmax in mol/(L·s), [S] in mol/L, Km in mol/L",
+    "variablen": [
+      {
+        "symbol": "v",
+        "bedeutung": "Reaktionsgeschwindigkeit bei Substratkonzentration [S]",
+        "einheit": "mol/(L·s)"
+      },
+      {
+        "symbol": "Vmax",
+        "bedeutung": "Maximalgeschwindigkeit (bei Substratsättigung)",
+        "einheit": "mol/(L·s)"
+      },
+      {
+        "symbol": "[S]",
+        "bedeutung": "Substratkonzentration",
+        "einheit": "mol/L"
+      },
+      {
+        "symbol": "Km",
+        "bedeutung": "Michaelis-Konstante ([S] bei v = Vmax/2)",
+        "einheit": "mol/L"
+      }
+    ],
+    "hintergrund": "Leonor Michaelis und Maud Menten (1913) leiteten die Gleichung aus dem Mechanismus E + S ⇌ ES → E + P ab. Km ist ein Maß für die Substrat­affinität: niedriges Km = hohe Affinität. Die Lineweaver-Burk-Auftragung (1/v vs. 1/[S]) linearisiert die Kurve.",
+    "beispiel": "Vmax = 10 µmol/(L·s), Km = 2 mmol/L. Bei [S] = Km: v = 10·0,002/(0,002+0,002) = 5 µmol/(L·s) = Vmax/2 ✓. Bei [S] >> Km: v ≈ Vmax.",
+    "anwendung": "Pharmakologie (IC₅₀, Wirkstoffdesign), Biotechnologie, Medizinische Biochemie, Metabolismus-Modellierung, Diagnostik",
+    "quellen": [
+      "Michaelis, L. & Menten, M.L. (1913). Die Kinetik der Invertinwirkung. Biochemische Zeitschrift, 49, 333–369."
+    ],
+    "verwandte": [
+      "arrhenius-gleichung",
+      "massenwirkungsgesetz",
+      "logistisches-wachstum"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "universitaet"
+  },
+  {
+    "slug": "logistisches-wachstum",
+    "name": "Logistisches Wachstum",
+    "latex": "\\frac{dN}{dt} = r \\cdot N \\cdot \\left(1 - \\frac{N}{K}\\right)",
+    "symbol": "dN/dt = r·N·(1 − N/K)",
+    "kategorie": "biologie",
+    "unterkategorie": "Populationsbiologie",
+    "beschreibung": "Die Differentialgleichung des logistischen Wachstums beschreibt Populationswachstum mit Kapazitätsgrenze — realistisches Modell für alle biologischen Populationen.",
+    "einheiten": "N in Individuen, r in 1/Zeit, K in Individuen, t in Zeit",
+    "variablen": [
+      {
+        "symbol": "N",
+        "bedeutung": "Populationsgröße (Anzahl Individuen)",
+        "einheit": "Individuen"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Intrinsische Wachstumsrate (birth − death rate)",
+        "einheit": "1/t"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Kapazitätsgrenze (Carrying Capacity) des Lebensraums",
+        "einheit": "Individuen"
+      },
+      {
+        "symbol": "t",
+        "bedeutung": "Zeit",
+        "einheit": "s, d oder Jahr"
+      }
+    ],
+    "hintergrund": "Pierre François Verhulst (1838) korrigierte Malthus'exponentiellen Ansatz: Bei N << K: nahezu exponentielles Wachstum; bei N → K: dN/dt → 0. Wendepunkt (stärkste Rate) bei N = K/2. Analytische Lösung: N(t) = K/(1 + ((K−N₀)/N₀)·e^(−rt)).",
+    "beispiel": "Bakterien: r = 0,5/h, K = 10⁶, N₀ = 1000. Nach t = 10 h: N ≈ 10⁶/(1 + 999·e⁻⁵) ≈ 860 000. Bei t → ∞: N → K.",
+    "anwendung": "Ökologie (Populationsdynamik), Epidemiologie (SIR-Modelle), Bakterienwachstum, Tumorwachstum, Marktsättigung",
+    "quellen": [
+      "Verhulst, P.F. (1838). Notice sur la loi que la population suit dans son accroissement. Correspondance Mathématique et Physique, 10, 113–121."
+    ],
+    "verwandte": [
+      "normalverteilung",
+      "bayes-theorem",
+      "michaelis-menten"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "universitaet"
   }
 ]
