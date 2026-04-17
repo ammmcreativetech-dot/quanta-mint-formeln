@@ -6,11 +6,16 @@ on:
     paths:
       - formeln.json
       - package.json
+  workflow_dispatch:
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    permissions:
+      contents: read
+
     steps:
       - uses: actions/checkout@v4
 
