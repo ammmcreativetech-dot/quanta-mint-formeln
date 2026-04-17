@@ -1,0 +1,1001 @@
+[
+  {
+    "slug": "newton-zweites-gesetz",
+    "name": "Newtons zweites Gesetz",
+    "latex": "F = m \\cdot a",
+    "symbol": "F = ma",
+    "kategorie": "physik",
+    "unterkategorie": "Mechanik",
+    "beschreibung": "Das zweite Newtonsche Gesetz beschreibt den Zusammenhang zwischen Kraft, Masse und Beschleunigung eines Körpers.",
+    "einheiten": "F in Newton [N] = [kg·m/s²] · m in Kilogramm [kg] · a in m/s²",
+    "variablen": [
+      {
+        "symbol": "F",
+        "bedeutung": "Kraft",
+        "einheit": "N (Newton)"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Masse des Körpers",
+        "einheit": "kg (Kilogramm)"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Beschleunigung",
+        "einheit": "m/s²"
+      }
+    ],
+    "hintergrund": "Isaac Newton formulierte 1687 in seinen \"Philosophiae Naturalis Principia Mathematica\" die drei Grundgesetze der klassischen Mechanik. Das zweite Gesetz (lex secunda) lautet: Vis impressa est mutatio motus — die einwirkende Kraft ist gleich der Änderung des Bewegungszustands. In moderner Vektorform: F⃗ = m·a⃗, wobei bei konstanter Masse F⃗ = dp⃗/dt = d(mv⃗)/dt = m·dv⃗/dt = m·a⃗.",
+    "beispiel": "Ein Auto der Masse m = 1.200 kg beschleunigt mit a = 3 m/s². Die nötige Antriebskraft beträgt: F = 1.200 kg × 3 m/s² = 3.600 N.",
+    "anwendung": "Fahrzeugdynamik, Raumfahrt (Raketenantrieb), Biomechanik (Ganganalyse), Materialprüfung",
+    "quellen": [
+      "Newton, I. (1687). Philosophiae Naturalis Principia Mathematica.",
+      "Halliday, D., Resnick, R., & Walker, J. (2018). Fundamentals of Physics. Wiley."
+    ],
+    "verwandte": [
+      "impuls-formel",
+      "energie-kinetisch",
+      "gravitationsgesetz"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "gravitationsgesetz",
+    "name": "Newtonsches Gravitationsgesetz",
+    "latex": "F_G = G \\cdot \\frac{m_1 \\cdot m_2}{r^2}",
+    "symbol": "F = G·m₁m₂/r²",
+    "kategorie": "physik",
+    "unterkategorie": "Gravitation",
+    "beschreibung": "Das Gravitationsgesetz beschreibt die anziehende Kraft zwischen zwei Massen in Abhängigkeit ihres Abstands.",
+    "einheiten": "F in N · G = 6,674×10⁻¹¹ N·m²/kg² · m in kg · r in m",
+    "variablen": [
+      {
+        "symbol": "F_G",
+        "bedeutung": "Gravitationskraft",
+        "einheit": "N"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante (6,674×10⁻¹¹)",
+        "einheit": "N·m²/kg²"
+      },
+      {
+        "symbol": "m₁, m₂",
+        "bedeutung": "Massen der Körper",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Abstand zwischen den Massenmittelpunkten",
+        "einheit": "m"
+      }
+    ],
+    "hintergrund": "Newton leitete das Gravitationsgesetz 1687 aus Keplers Planetengesetzen ab. Die Gravitationskonstante G wurde erst 1798 von Henry Cavendish experimentell bestimmt.",
+    "beispiel": "Gewichtskraft auf der Erdoberfläche: F = 6,674×10⁻¹¹ × (6×10²⁴ × 70) / (6,371×10⁶)² ≈ 686 N für eine Person von 70 kg.",
+    "anwendung": "Planetenbewegung, Raumfahrt (Startfenster, Orbitalmanöver), Geodäsie, GPS-Kalibrierung",
+    "quellen": [
+      "Newton, I. (1687). Principia Mathematica.",
+      "Cavendish, H. (1798). Experiments to determine the density of the Earth."
+    ],
+    "verwandte": [
+      "newton-zweites-gesetz",
+      "kreisbewegung",
+      "energie-potentiell"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "energie-kinetisch",
+    "name": "Kinetische Energie",
+    "latex": "E_{kin} = \\frac{1}{2} m v^2",
+    "symbol": "Ekin = ½mv²",
+    "kategorie": "physik",
+    "unterkategorie": "Energielehre",
+    "beschreibung": "Die kinetische Energie ist die Bewegungsenergie eines Körpers der Masse m mit Geschwindigkeit v.",
+    "einheiten": "E in Joule [J] = [kg·m²/s²] · m in kg · v in m/s",
+    "variablen": [
+      {
+        "symbol": "E_kin",
+        "bedeutung": "Kinetische Energie",
+        "einheit": "J (Joule)"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Masse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Geschwindigkeit",
+        "einheit": "m/s"
+      }
+    ],
+    "hintergrund": "Abgeleitet durch Integration von F = ma über den Weg: W = ∫F·ds = ∫ma·ds = m∫v·dv = ½mv². Das ist auch die Arbeit, die nötig ist, um einen Körper von 0 auf v zu beschleunigen.",
+    "beispiel": "Ein Auto (m = 1.500 kg) bei v = 100 km/h = 27,8 m/s: E_kin = ½ × 1.500 × 27,8² ≈ 579 kJ — entspricht dem Einschlag einer kleinen Granate.",
+    "anwendung": "Unfallrekonstruktion, Windenergie (E ∝ v³ nach Betz), Teilchenphysik, Crash-Tests",
+    "quellen": [
+      "Feynman, R., Leighton, R., & Sands, M. (1963). The Feynman Lectures on Physics."
+    ],
+    "verwandte": [
+      "energie-potentiell",
+      "newton-zweites-gesetz",
+      "arbeit-leistung"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "energie-potentiell",
+    "name": "Potentielle Energie (Lagehöhe)",
+    "latex": "E_{pot} = m \\cdot g \\cdot h",
+    "symbol": "Epot = mgh",
+    "kategorie": "physik",
+    "unterkategorie": "Energielehre",
+    "beschreibung": "Die potentielle Energie (Lageenergie) eines Körpers der Masse m in der Höhe h im homogenen Gravitationsfeld g.",
+    "einheiten": "E in J · m in kg · g = 9,81 m/s² · h in m",
+    "variablen": [
+      {
+        "symbol": "E_pot",
+        "bedeutung": "Potentielle Energie",
+        "einheit": "J"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Masse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Erdbeschleunigung (9,81 m/s²)",
+        "einheit": "m/s²"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Höhe über Referenzniveau",
+        "einheit": "m"
+      }
+    ],
+    "hintergrund": "Gilt exakt nur in homogenen Gravitationsfeldern (Näherung auf Erdoberfläche). Für große Höhen: E_pot = -G·M·m/r (allgemeine Form). Der Energieerhaltungssatz: E_kin + E_pot = const. (für konservative Kräfte).",
+    "beispiel": "Bergsteiger (m = 80 kg) auf 3.000 m Höhe: E_pot = 80 × 9,81 × 3.000 ≈ 2,35 MJ — Energie eines Sprengstoffpakets.",
+    "anwendung": "Pumpspeicherkraftwerke, Fallturm-Experimente, Brückenstatik, Raumfahrt",
+    "quellen": [
+      "Tipler, P.A., & Llewellyn, R.A. (2020). Modern Physics. Freeman."
+    ],
+    "verwandte": [
+      "energie-kinetisch",
+      "gravitationsgesetz",
+      "arbeit-leistung"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "coulomb-gesetz",
+    "name": "Coulombsches Gesetz",
+    "latex": "F = k_e \\cdot \\frac{q_1 \\cdot q_2}{r^2}",
+    "symbol": "F = ke·q₁q₂/r²",
+    "kategorie": "physik",
+    "unterkategorie": "Elektrodynamik",
+    "beschreibung": "Das Coulombsche Gesetz beschreibt die elektrostatische Kraft zwischen zwei Punktladungen.",
+    "einheiten": "F in N · k_e = 8,99×10⁹ N·m²/C² · q in C (Coulomb) · r in m",
+    "variablen": [
+      {
+        "symbol": "F",
+        "bedeutung": "Elektrostatische Kraft",
+        "einheit": "N"
+      },
+      {
+        "symbol": "k_e",
+        "bedeutung": "Coulomb-Konstante (8,99×10⁹)",
+        "einheit": "N·m²/C²"
+      },
+      {
+        "symbol": "q₁, q₂",
+        "bedeutung": "Elektrische Ladungen",
+        "einheit": "C (Coulomb)"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Abstand zwischen den Ladungen",
+        "einheit": "m"
+      }
+    ],
+    "hintergrund": "Charles-Augustin de Coulomb bestimmte 1785 das Gesetz mit einer Torsionswaage. Analog zum Gravitationsgesetz (1/r²-Abhängigkeit), aber: Vorzeichen entscheiden über Anziehung (ungleich) oder Abstoßung (gleich). k_e = 1/(4πε₀), wobei ε₀ = 8,854×10⁻¹² F/m die Permittivität des Vakuums ist.",
+    "beispiel": "Zwei Protonen im Abstand r = 10⁻¹⁵ m (Atomkerngröße): F = 8,99×10⁹ × (1,6×10⁻¹⁹)² / (10⁻¹⁵)² ≈ 230 N — erklärt, warum Kernkräfte so stark sein müssen.",
+    "anwendung": "Chemische Bindung, Festkörperphysik, Elektronik (Halbleiter), Massenspektrometrie",
+    "quellen": [
+      "Griffiths, D.J. (2017). Introduction to Electrodynamics. Cambridge."
+    ],
+    "verwandte": [
+      "maxwell-gleichungen",
+      "lorentzkraft",
+      "bohr-modell"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "lorentzkraft",
+    "name": "Lorentzkraft",
+    "latex": "\\vec{F} = q \\cdot (\\vec{v} \\times \\vec{B})",
+    "symbol": "F = q(v × B)",
+    "kategorie": "physik",
+    "unterkategorie": "Elektrodynamik",
+    "beschreibung": "Die Lorentzkraft beschreibt die Kraft auf eine bewegte elektrische Ladung in einem Magnetfeld.",
+    "einheiten": "F in N · q in C · v in m/s · B in T (Tesla)",
+    "variablen": [
+      {
+        "symbol": "F⃗",
+        "bedeutung": "Lorentzkraft (Vektor)",
+        "einheit": "N"
+      },
+      {
+        "symbol": "q",
+        "bedeutung": "Elektrische Ladung",
+        "einheit": "C"
+      },
+      {
+        "symbol": "v⃗",
+        "bedeutung": "Geschwindigkeit der Ladung",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "B⃗",
+        "bedeutung": "Magnetische Flussdichte",
+        "einheit": "T (Tesla)"
+      }
+    ],
+    "hintergrund": "Hendrik Antoon Lorentz formulierte 1895 die vollständige Gleichung F = q(E + v×B). Die Richtung ist durch die Rechte-Hand-Regel bestimmt: Zeiger = v⃗, Mittelfinger = B⃗, Daumen = F⃗ (positive Ladung).",
+    "beispiel": "Elektron (q = -1,6×10⁻¹⁹ C) bewegt sich mit v = 10⁶ m/s senkrecht zu B = 0,1 T: |F| = 1,6×10⁻¹⁹ × 10⁶ × 0,1 = 1,6×10⁻¹⁴ N.",
+    "anwendung": "Elektromotoren, Cyclotron/MRT, Massenspektrometer, Kompass",
+    "quellen": [
+      "Jackson, J.D. (1998). Classical Electrodynamics. Wiley."
+    ],
+    "verwandte": [
+      "coulomb-gesetz",
+      "induktion-faraday",
+      "maxwell-gleichungen"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "wirkungsgrad-carnot",
+    "name": "Carnot-Wirkungsgrad",
+    "latex": "\\eta_{Carnot} = 1 - \\frac{T_{kalt}}{T_{warm}}",
+    "symbol": "η = 1 − T_k/T_w",
+    "kategorie": "physik",
+    "unterkategorie": "Thermodynamik",
+    "beschreibung": "Der Carnot-Wirkungsgrad gibt den maximal möglichen Wirkungsgrad einer Wärmekraftmaschine zwischen zwei Temperaturniveaus an.",
+    "einheiten": "η dimensionslos (0 bis 1) · T in Kelvin [K]",
+    "variablen": [
+      {
+        "symbol": "η",
+        "bedeutung": "Wirkungsgrad",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "T_warm",
+        "bedeutung": "Temperatur des heißen Reservoirs",
+        "einheit": "K"
+      },
+      {
+        "symbol": "T_kalt",
+        "bedeutung": "Temperatur des kalten Reservoirs",
+        "einheit": "K"
+      }
+    ],
+    "hintergrund": "Nicolas Léonard Sadi Carnot beschrieb 1824 den idealisierten Kreisprozess. Der 2. Hauptsatz: Kein realer Prozess kann η = 1 erreichen, da T_kalt > 0 K. Ein Dampfkraftwerk mit T_warm = 600°C = 873 K und T_kalt = 30°C = 303 K erreicht maximal η = 1 − 303/873 ≈ 65%.",
+    "beispiel": "Modernes Steinkohlekraftwerk: T_warm ≈ 600°C (873 K), T_kalt ≈ 30°C (303 K). η_max = 1 − 303/873 = 65%. Realer Wirkungsgrad: ~45%.",
+    "anwendung": "Kraftwerkstechnik, Kältemaschinen (umgekehrt), Klimaanlagen, Motorenbewertung",
+    "quellen": [
+      "Carnot, S. (1824). Réflexions sur la puissance motrice du feu.",
+      "Callen, H.B. (1985). Thermodynamics. Wiley."
+    ],
+    "verwandte": [
+      "hauptsaetze-thermodynamik",
+      "entropie-clausius",
+      "innere-energie"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "de-broglie-wellenlaenge",
+    "name": "De-Broglie-Wellenlänge",
+    "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
+    "symbol": "λ = h/p",
+    "kategorie": "physik",
+    "unterkategorie": "Quantenphysik",
+    "beschreibung": "Die De-Broglie-Wellenlänge beschreibt die Wellennatur von Materieteilchen — Welle-Teilchen-Dualismus.",
+    "einheiten": "λ in m · h = 6,626×10⁻³⁴ J·s · p in kg·m/s",
+    "variablen": [
+      {
+        "symbol": "λ",
+        "bedeutung": "De-Broglie-Wellenlänge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Plancksches Wirkungsquantum (6,626×10⁻³⁴ J·s)",
+        "einheit": "J·s"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Impuls des Teilchens (= mv)",
+        "einheit": "kg·m/s"
+      }
+    ],
+    "hintergrund": "Louis de Broglie postulierte 1924 in seiner Dissertation, dass alle Materie Welleneigenschaften besitzt (Analogie zu Photonen: p = h/λ → λ = h/p). Experimentell bestätigt durch Davisson-Germer-Experiment (1927): Elektronenbeugung an Nickelkristall.",
+    "beispiel": "Elektron mit v = 10⁶ m/s: λ = 6,626×10⁻³⁴ / (9,11×10⁻³¹ × 10⁶) ≈ 0,73 nm — Größenordnung von Atomabständen → Elektronenmikroskop möglich.",
+    "anwendung": "Elektronenmikroskopie (0,1 Å Auflösung), Neutronenstreuung, Quantencomputing",
+    "quellen": [
+      "de Broglie, L. (1924). Thèse de doctorat, Université de Paris.",
+      "Davisson, C., & Germer, L.H. (1927). Nature."
+    ],
+    "verwandte": [
+      "heisenberg-unschaerfe",
+      "bohr-modell",
+      "photoeffekt"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "photoeffekt-einstein",
+    "name": "Photoeffekt (Einstein)",
+    "latex": "E_{kin} = h \\cdot f - W_A",
+    "symbol": "Ekin = hf − WA",
+    "kategorie": "physik",
+    "unterkategorie": "Quantenphysik",
+    "beschreibung": "Der Photoeffekt beschreibt die Emission von Elektronen aus einer Metalloberfläche bei Bestrahlung mit Licht.",
+    "einheiten": "E in J · h = 6,626×10⁻³⁴ J·s · f in Hz · W_A in J (Elektronenvolt: eV)",
+    "variablen": [
+      {
+        "symbol": "E_kin",
+        "bedeutung": "Kinetische Energie des emittierten Elektrons",
+        "einheit": "J oder eV"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Plancksches Wirkungsquantum",
+        "einheit": "J·s"
+      },
+      {
+        "symbol": "f",
+        "bedeutung": "Frequenz des einfallenden Lichts",
+        "einheit": "Hz"
+      },
+      {
+        "symbol": "W_A",
+        "bedeutung": "Austrittsarbeit (materialspezifisch)",
+        "einheit": "J oder eV"
+      }
+    ],
+    "hintergrund": "Albert Einstein erklärte 1905 den von Hertz beobachteten Photoeffekt durch die Quantenhypothese (Photonen mit E = hf). Hierfür erhielt er 1921 den Nobelpreis — nicht für die Relativitätstheorie.",
+    "beispiel": "Natrium (W_A = 2,28 eV), beleuchtet mit UV-Licht f = 8×10¹⁴ Hz: E_kin = (6,626×10⁻³⁴ × 8×10¹⁴) / 1,6×10⁻¹⁹ − 2,28 ≈ 1,03 eV.",
+    "anwendung": "Solarzellen, Photodetektoren, Nachtsichtgeräte, Digitalkameras (CCD)",
+    "quellen": [
+      "Einstein, A. (1905). Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt. Annalen der Physik."
+    ],
+    "verwandte": [
+      "de-broglie-wellenlaenge",
+      "bohr-modell",
+      "heisenberg-unschaerfe"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "induktion-faraday",
+    "name": "Faradayssches Induktionsgesetz",
+    "latex": "U_{ind} = -N \\cdot \\frac{d\\Phi}{dt}",
+    "symbol": "U = −N·dΦ/dt",
+    "kategorie": "physik",
+    "unterkategorie": "Elektrodynamik",
+    "beschreibung": "Das Faradaysche Induktionsgesetz beschreibt die Entstehung einer Spannung durch Änderung des magnetischen Flusses.",
+    "einheiten": "U in V (Volt) · N dimensionslos · Φ in Wb (Weber = V·s)",
+    "variablen": [
+      {
+        "symbol": "U_ind",
+        "bedeutung": "Induzierte Spannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "Windungszahl der Spule",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Φ",
+        "bedeutung": "Magnetischer Fluss (= B·A·cos θ)",
+        "einheit": "Wb = V·s"
+      }
+    ],
+    "hintergrund": "Michael Faraday entdeckte 1831 experimentell die elektromagnetische Induktion. Das Minuszeichen (Lenzsche Regel) besagt: Die induzierte Spannung wirkt ihrer Ursache entgegen — Energieerhaltung.",
+    "beispiel": "Spule mit N = 200 Windungen. Magnetfluss ändert sich von 0 auf 50 mWb in 0,1 s: U = −200 × (0,05/0,1) = −100 V.",
+    "anwendung": "Elektromotoren, Generatoren, Transformatoren, Induktionskochfeld",
+    "quellen": [
+      "Faraday, M. (1831). Experimental Researches in Electricity. Philosophical Transactions of the Royal Society."
+    ],
+    "verwandte": [
+      "lorentzkraft",
+      "maxwell-gleichungen",
+      "selbstinduktion"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "ideales-gasgesetz",
+    "name": "Ideales Gasgesetz",
+    "latex": "p \\cdot V = n \\cdot R \\cdot T",
+    "symbol": "pV = nRT",
+    "kategorie": "chemie",
+    "unterkategorie": "Thermodynamik / Gase",
+    "beschreibung": "Das ideale Gasgesetz verbindet Druck, Volumen, Stoffmenge und Temperatur eines idealen Gases.",
+    "einheiten": "p in Pa · V in m³ · n in mol · R = 8,314 J/(mol·K) · T in K",
+    "variablen": [
+      {
+        "symbol": "p",
+        "bedeutung": "Druck",
+        "einheit": "Pa (Pascal)"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Volumen",
+        "einheit": "m³ oder L"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Stoffmenge",
+        "einheit": "mol"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Universelle Gaskonstante (8,314)",
+        "einheit": "J/(mol·K)"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Temperatur (in Kelvin!)",
+        "einheit": "K"
+      }
+    ],
+    "hintergrund": "Synthese aus Boyle-Mariotte-Gesetz (pV = const.), Gay-Lussac-Gesetz (V/T = const.) und Avogadro-Gesetz (V ∝ n). Gilt exakt nur für ideale Gase (keine Wechselwirkungen, punktförmige Teilchen).",
+    "beispiel": "5 mol N₂ bei T = 300 K und p = 1 atm = 101.325 Pa: V = nRT/p = 5 × 8,314 × 300 / 101.325 ≈ 0,123 m³ = 123 L.",
+    "anwendung": "Luftfahrt (Druckkabinen), Tauchen (Druckausgleich), Chemische Reaktoren, Atemgasgemische",
+    "quellen": [
+      "Atkins, P., & de Paula, J. (2018). Physical Chemistry. Oxford University Press."
+    ],
+    "verwandte": [
+      "avogadro-konstante",
+      "arrhenius-gleichung",
+      "van-der-waals"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "arrhenius-gleichung",
+    "name": "Arrhenius-Gleichung",
+    "latex": "k = A \\cdot e^{-E_A / (R \\cdot T)}",
+    "symbol": "k = A·e^(−EA/RT)",
+    "kategorie": "chemie",
+    "unterkategorie": "Reaktionskinetik",
+    "beschreibung": "Die Arrhenius-Gleichung beschreibt die Temperaturabhängigkeit der Geschwindigkeitskonstante einer chemischen Reaktion.",
+    "einheiten": "k in s⁻¹ (oder mol⁻¹·L·s⁻¹) · A = Frequenzfaktor · E_A in J/mol · R = 8,314 J/(mol·K) · T in K",
+    "variablen": [
+      {
+        "symbol": "k",
+        "bedeutung": "Geschwindigkeitskonstante",
+        "einheit": "mol⁻¹·L·s⁻¹ o.ä."
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Präexponentieller Faktor (Frequenzfaktor)",
+        "einheit": "gleiche Einheit wie k"
+      },
+      {
+        "symbol": "E_A",
+        "bedeutung": "Aktivierungsenergie",
+        "einheit": "J/mol"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Gaskonstante (8,314)",
+        "einheit": "J/(mol·K)"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Temperatur",
+        "einheit": "K"
+      }
+    ],
+    "hintergrund": "Svante Arrhenius formulierte 1889 die Gleichung auf Basis empirischer Beobachtungen. Die RGT-Regel (Reaktionsgeschwindigkeit-Temperatur) besagt näherungsweise: +10 K verdoppelt die Reaktionsgeschwindigkeit. Die Aktivierungsenergie ist die Energieschranke, die überwunden werden muss.",
+    "beispiel": "Reaktion mit E_A = 50 kJ/mol bei T₁ = 300 K und T₂ = 310 K: k₂/k₁ = e^(50000/8,314 × (1/300 − 1/310)) ≈ 1,9 → ca. Verdopplung.",
+    "anwendung": "Chemische Verfahrenstechnik, Lebensmittelkonservierung (Kühlung), Pharmazie (Haltbarkeit), Geologie (Altersbestimmung)",
+    "quellen": [
+      "Arrhenius, S. (1889). Über die Reaktionsgeschwindigkeit bei der Inversion von Rohrzucker durch Säuren. Zeitschrift für physikalische Chemie."
+    ],
+    "verwandte": [
+      "ideales-gasgesetz",
+      "gibbs-energie",
+      "gleichgewichtskonstante"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "henderson-hasselbalch",
+    "name": "Henderson-Hasselbalch-Gleichung",
+    "latex": "pH = pK_a + \\log \\frac{[A^-]}{[HA]}",
+    "symbol": "pH = pKa + log([A⁻]/[HA])",
+    "kategorie": "chemie",
+    "unterkategorie": "Säure-Base-Chemie",
+    "beschreibung": "Die Henderson-Hasselbalch-Gleichung berechnet den pH-Wert von Pufferlösungen aus dem pKa der Säure und dem Konzentrationsverhältnis.",
+    "einheiten": "pH dimensionslos · pKa dimensionslos · Konzentrationen in mol/L",
+    "variablen": [
+      {
+        "symbol": "pH",
+        "bedeutung": "Negativer dekadischer Logarithmus der H⁺-Konzentration",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "pKa",
+        "bedeutung": "Negativer Logarithmus der Säurekonstante",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "[A⁻]",
+        "bedeutung": "Konzentration der konjugierten Base",
+        "einheit": "mol/L"
+      },
+      {
+        "symbol": "[HA]",
+        "bedeutung": "Konzentration der schwachen Säure",
+        "einheit": "mol/L"
+      }
+    ],
+    "hintergrund": "Abgeleitet aus der Massenwirkung für schwache Säuren: Ka = [H⁺][A⁻]/[HA] → [H⁺] = Ka × [HA]/[A⁻] → pH = pKa + log([A⁻]/[HA]).",
+    "beispiel": "Essigsäure-Puffer (pKa = 4,75), [CH₃COO⁻] = 0,1 mol/L, [CH₃COOH] = 0,05 mol/L: pH = 4,75 + log(0,1/0,05) = 4,75 + 0,30 = 5,05.",
+    "anwendung": "Biochemie (Blutpuffer pH 7,4), Pharmazie (Formulierungen), Analytische Chemie, Lebensmittelchemie",
+    "quellen": [
+      "Henderson, L.J. (1908). The theory of neutrality regulation in the animal organism. American Journal of Physiology."
+    ],
+    "verwandte": [
+      "ideales-gasgesetz",
+      "arrhenius-gleichung",
+      "gibbs-energie"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "nernst-gleichung",
+    "name": "Nernst-Gleichung",
+    "latex": "E = E^0 - \\frac{RT}{zF} \\ln Q",
+    "symbol": "E = E° − (RT/zF)·ln Q",
+    "kategorie": "chemie",
+    "unterkategorie": "Elektrochemie",
+    "beschreibung": "Die Nernst-Gleichung beschreibt das Elektrodenpotential in Abhängigkeit von Temperatur und Konzentration.",
+    "einheiten": "E in V · R = 8,314 J/(mol·K) · T in K · z = Zahl übertragener Elektronen · F = 96.485 C/mol",
+    "variablen": [
+      {
+        "symbol": "E",
+        "bedeutung": "Elektrodenpotential",
+        "einheit": "V"
+      },
+      {
+        "symbol": "E°",
+        "bedeutung": "Standardelektrodenpotential",
+        "einheit": "V"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Gaskonstante",
+        "einheit": "J/(mol·K)"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Temperatur",
+        "einheit": "K"
+      },
+      {
+        "symbol": "z",
+        "bedeutung": "Zahl der übertragenen Elektronen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Faraday-Konstante (96.485 C/mol)",
+        "einheit": "C/mol"
+      },
+      {
+        "symbol": "Q",
+        "bedeutung": "Reaktionsquotient",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Walther Nernst leitete die Gleichung 1889 aus thermodynamischen Prinzipien ab. Bei 25°C vereinfacht: E = E° − (0,0592/z)·log Q.",
+    "beispiel": "Cu²⁺/Cu-Elektrode (E° = +0,34 V), [Cu²⁺] = 0,01 mol/L, T = 298 K, z = 2: E = 0,34 − (0,0296)·log(1/0,01) = 0,34 − 0,0592 = 0,28 V.",
+    "anwendung": "Batterietechnik (Li-Ion), Brennstoffzellen, Korrosionsschutz, Biosensoren (Blutglukose)",
+    "quellen": [
+      "Nernst, W. (1889). Die elektromotorische Wirksamkeit der Jonen. Zeitschrift für Physikalische Chemie."
+    ],
+    "verwandte": [
+      "gibbs-energie",
+      "gleichgewichtskonstante",
+      "faraday-elektrolyse"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "universitaet"
+  },
+  {
+    "slug": "gibbs-energie",
+    "name": "Gibbs-Energie (Freie Enthalpie)",
+    "latex": "\\Delta G = \\Delta H - T \\cdot \\Delta S",
+    "symbol": "ΔG = ΔH − TΔS",
+    "kategorie": "chemie",
+    "unterkategorie": "Thermodynamik",
+    "beschreibung": "Die Gibbs-Energie bestimmt die Spontaneität chemischer Reaktionen: ΔG < 0 → spontan, ΔG > 0 → nicht spontan.",
+    "einheiten": "G, H, S·T alle in kJ/mol · T in K · S in J/(mol·K)",
+    "variablen": [
+      {
+        "symbol": "ΔG",
+        "bedeutung": "Änderung der freien Enthalpie",
+        "einheit": "kJ/mol"
+      },
+      {
+        "symbol": "ΔH",
+        "bedeutung": "Änderung der Enthalpie (Wärme)",
+        "einheit": "kJ/mol"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Temperatur",
+        "einheit": "K"
+      },
+      {
+        "symbol": "ΔS",
+        "bedeutung": "Änderung der Entropie",
+        "einheit": "J/(mol·K)"
+      }
+    ],
+    "hintergrund": "Josiah Willard Gibbs entwickelte 1876 die thermodynamische Potentialfunktion. ΔG° = −RT·ln K verknüpft Thermodynamik mit Gleichgewichtskonstante. ATP-Hydrolyse in Zellen: ΔG° = −30,5 kJ/mol (exergon).",
+    "beispiel": "Kompromisskompromisslose Reaktion: ΔH = −100 kJ/mol (exotherm), ΔS = +200 J/(mol·K). Bei T = 500 K: ΔG = −100.000 − 500×200 = −200 kJ/mol → spontan.",
+    "anwendung": "Biochemie (ATP-Zyklus), Metallurgie (Verhüttung), Batterietechnik, Chemische Produktion",
+    "quellen": [
+      "Gibbs, J.W. (1876). On the Equilibrium of Heterogeneous Substances. Trans. Connecticut Academy."
+    ],
+    "verwandte": [
+      "arrhenius-gleichung",
+      "nernst-gleichung",
+      "gleichgewichtskonstante"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "universitaet"
+  },
+  {
+    "slug": "pythagorean-theorem",
+    "name": "Satz des Pythagoras",
+    "latex": "a^2 + b^2 = c^2",
+    "symbol": "a² + b² = c²",
+    "kategorie": "mathematik",
+    "unterkategorie": "Geometrie",
+    "beschreibung": "Der Satz des Pythagoras gilt für rechtwinklige Dreiecke: Das Quadrat der Hypotenuse gleich der Summe der Kathetenquadrate.",
+    "einheiten": "Alle Längen in gleicher Einheit (dimensionslos in Relation)",
+    "variablen": [
+      {
+        "symbol": "a, b",
+        "bedeutung": "Katheten (Seiten am rechten Winkel)",
+        "einheit": "m, cm, etc."
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Hypotenuse (längste Seite, gegenüber dem 90°-Winkel)",
+        "einheit": "gleiche Einheit"
+      }
+    ],
+    "hintergrund": "Bekannt seit dem 8. Jahrhundert v. Chr. (Babylon, Indien). Pythagoras von Samos (~570–495 v. Chr.) gilt als Namensgeber. Es gibt über 370 Beweise (Euklid, Präsident Garfield, Einstein). Verallgemeinerung: Kosinussatz c² = a² + b² − 2ab·cos γ.",
+    "beispiel": "Zimmermann benötigt Diagonale eines 3m × 4m Raums: c = √(3² + 4²) = √25 = 5 m. \"3-4-5 Tripel\" — klassisches pythagoräisches Tripel.",
+    "anwendung": "Architektur, Navigation (GPS-Triangulation), Computergrafik, Vektorberechnung",
+    "quellen": [
+      "Euklid (ca. 300 v. Chr.). Elemente, Buch I, Satz 47."
+    ],
+    "verwandte": [
+      "kosinussatz",
+      "eulersche-formel",
+      "vektorrechnung"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "quadratische-formel",
+    "name": "Quadratische Formel (ABC-Formel)",
+    "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+    "symbol": "x = (−b ± √D) / 2a",
+    "kategorie": "mathematik",
+    "unterkategorie": "Algebra",
+    "beschreibung": "Die quadratische Formel liefert alle Lösungen jeder quadratischen Gleichung ax² + bx + c = 0.",
+    "einheiten": "Dimensionslos (Algebra)",
+    "variablen": [
+      {
+        "symbol": "a",
+        "bedeutung": "Koeffizient von x² (a ≠ 0)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Koeffizient von x",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Konstante",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Diskriminante D = b² − 4ac",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Bekannt seit der babylonischen Mathematik (~1800 v. Chr.). Algebraisch hergeleitet durch \"quadratische Ergänzung\". Diskriminante D: D > 0 → zwei reelle Lösungen; D = 0 → eine Lösung; D < 0 → keine reellen Lösungen.",
+    "beispiel": "2x² − 4x − 6 = 0 → x = (4 ± √(16+48))/4 = (4 ± 8)/4 → x₁ = 3, x₂ = −1.",
+    "anwendung": "Physik (Wurfparabel), Ingenieurwesen, Finanzmodelle (Break-Even), Optik (Linsengleichung)",
+    "quellen": [
+      "Al-Khwarizmi (825). Kitab al-mukhtasar fi hisab al-jabr wal-muqabala."
+    ],
+    "verwandte": [
+      "pythagorean-theorem",
+      "binomische-formeln",
+      "eulersche-formel"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "eulersche-formel",
+    "name": "Eulersche Formel",
+    "latex": "e^{i\\varphi} = \\cos\\varphi + i \\cdot \\sin\\varphi",
+    "symbol": "e^(iφ) = cos φ + i·sin φ",
+    "kategorie": "mathematik",
+    "unterkategorie": "Analysis / Komplexe Zahlen",
+    "beschreibung": "Die Eulersche Formel verbindet Exponentialfunktion mit Winkelfunktionen in der komplexen Ebene.",
+    "einheiten": "φ in Radiant · Alle Werte dimensionslos (komplexe Zahlen)",
+    "variablen": [
+      {
+        "symbol": "e",
+        "bedeutung": "Eulersche Zahl (≈ 2,718)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "i",
+        "bedeutung": "Imaginäre Einheit (i² = −1)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "φ",
+        "bedeutung": "Winkel (in Radiant)",
+        "einheit": "rad"
+      }
+    ],
+    "hintergrund": "Leonhard Euler bewies die Formel 1748. Sonderfall φ = π: e^(iπ) + 1 = 0 — die Eulersche Identität, oft als \"schönste Gleichung der Mathematik\" bezeichnet, da sie e, π, i, 1 und 0 verbindet.",
+    "beispiel": "φ = π/2: e^(iπ/2) = cos(π/2) + i·sin(π/2) = 0 + i·1 = i. φ = π: e^(iπ) = −1 → e^(iπ) + 1 = 0.",
+    "anwendung": "Signalverarbeitung (Fourier-Transformation), Quantenmechanik (Wellenfunktionen), AC-Stromanalyse",
+    "quellen": [
+      "Euler, L. (1748). Introductio in analysin infinitorum. Lausanne."
+    ],
+    "verwandte": [
+      "taylor-reihe",
+      "fourier-transformation",
+      "komplexe-zahlen"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "universitaet"
+  },
+  {
+    "slug": "produktregel-ableitung",
+    "name": "Produktregel der Differentiation",
+    "latex": "(f \\cdot g)' = f' \\cdot g + f \\cdot g'",
+    "symbol": "(fg)' = f'g + fg'",
+    "kategorie": "mathematik",
+    "unterkategorie": "Analysis",
+    "beschreibung": "Die Produktregel erlaubt die Ableitung von Produkten zweier Funktionen.",
+    "einheiten": "Dimensionslos (Analysis)",
+    "variablen": [
+      {
+        "symbol": "f, g",
+        "bedeutung": "Differenzierbare Funktionen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "f', g'",
+        "bedeutung": "Ableitungen von f und g",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Merkhilfe: \"Strich-normal + normal-Strich\". Leibniz-Notation: d(u·v)/dx = (du/dx)·v + u·(dv/dx). Verallgemeinerung auf n Faktoren durch vollständige Induktion.",
+    "beispiel": "(x²·sin x)' = 2x·sin x + x²·cos x. Kontrolle: Graph von (x²·sin x) sollte bei x=0 Steigung 0 zeigen: 2·0·0 + 0² = 0 ✓",
+    "anwendung": "Physik (Impuls p = mv, dp/dt = m′v + mv′), Statistik, Optimierungsprobleme",
+    "quellen": [
+      "Leibniz, G.W. (1684). Nova methodus pro maximis et minimis. Acta Eruditorum."
+    ],
+    "verwandte": [
+      "kettenregel-ableitung",
+      "quotientenregel",
+      "taylor-reihe"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "kettenregel-ableitung",
+    "name": "Kettenregel der Differentiation",
+    "latex": "(f \\circ g)'(x) = f'(g(x)) \\cdot g'(x)",
+    "symbol": "(f∘g)' = f'(g(x))·g'(x)",
+    "kategorie": "mathematik",
+    "unterkategorie": "Analysis",
+    "beschreibung": "Die Kettenregel leitet verkettete Funktionen f(g(x)) ab: Äußere Ableitung mal innere Ableitung.",
+    "einheiten": "Dimensionslos (Analysis)",
+    "variablen": [
+      {
+        "symbol": "f",
+        "bedeutung": "Äußere Funktion",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Innere Funktion",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "f', g'",
+        "bedeutung": "Ableitungen",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Merkhilfe: \"Außen ableiten, innen stehen lassen, mal innere Ableitung.\" Leibniz-Notation: dy/dx = (dy/du)·(du/dx). Grundlage des Backpropagation-Algorithmus in neuronalen Netzen.",
+    "beispiel": "sin(x²): äußere Funktion sin, innere x². → cos(x²) · 2x. Kontrolle bei x = 0: cos(0)·0 = 0 (lokales Minimum) ✓",
+    "anwendung": "Machine Learning (Backpropagation), Physik (Relativität, verkettete Koordinatentransformationen)",
+    "quellen": [
+      "Leibniz, G.W. (1684). Nova methodus."
+    ],
+    "verwandte": [
+      "produktregel-ableitung",
+      "quotientenregel",
+      "taylor-reihe"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "grundlegend"
+  },
+  {
+    "slug": "taylor-reihe",
+    "name": "Taylor-Reihe",
+    "latex": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^n",
+    "symbol": "f(x) = Σ f⁽ⁿ⁾(a)/n! · (x−a)ⁿ",
+    "kategorie": "mathematik",
+    "unterkategorie": "Analysis",
+    "beschreibung": "Die Taylor-Reihe beschreibt eine Funktion als Potenzreihe um einen Entwicklungspunkt a.",
+    "einheiten": "Dimensionslos (Analysis)",
+    "variablen": [
+      {
+        "symbol": "f⁽ⁿ⁾(a)",
+        "bedeutung": "n-te Ableitung von f am Punkt a",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "n!",
+        "bedeutung": "Fakultät von n",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Entwicklungspunkt",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Brook Taylor 1715, Colin Maclaurin 1742 (Spezialfall a = 0). Fundamentale Bedeutung: Jede glatte Funktion kann lokal durch Polynome approximiert werden. eˣ = 1 + x + x²/2! + x³/3! + ... (konvergiert überall).",
+    "beispiel": "sin(x) um a = 0: sin(x) = x − x³/6 + x⁵/120 − ... Für x = 0,1: sin(0,1) ≈ 0,1 − 0,000167 ≈ 0,09983. Exakt: 0,09983...",
+    "anwendung": "Numerische Mathematik, Physik (Näherungen), Signal-Processing, Taschenrechner-Implementierungen",
+    "quellen": [
+      "Taylor, B. (1715). Methodus incrementorum directa et inversa."
+    ],
+    "verwandte": [
+      "eulersche-formel",
+      "produktregel-ableitung",
+      "fourier-transformation"
+    ],
+    "abiturRelevant": false,
+    "schwierigkeit": "universitaet"
+  },
+  {
+    "slug": "bayes-theorem",
+    "name": "Satz von Bayes",
+    "latex": "P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)}",
+    "symbol": "P(A|B) = P(B|A)·P(A) / P(B)",
+    "kategorie": "mathematik",
+    "unterkategorie": "Stochastik / Wahrscheinlichkeitsrechnung",
+    "beschreibung": "Der Satz von Bayes beschreibt die Umkehrung bedingter Wahrscheinlichkeiten.",
+    "einheiten": "Alle Werte dimensionslos, zwischen 0 und 1",
+    "variablen": [
+      {
+        "symbol": "P(A|B)",
+        "bedeutung": "Bedingte Wahrscheinlichkeit von A, gegeben B (Posterior)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "P(B|A)",
+        "bedeutung": "Bedingte Wahrscheinlichkeit von B, gegeben A (Likelihood)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "P(A)",
+        "bedeutung": "A-priori-Wahrscheinlichkeit von A",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "P(B)",
+        "bedeutung": "Randwahrscheinlichkeit von B",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "hintergrund": "Thomas Bayes (1701–1761) entwickelte das Theorem posthum veröffentlicht 1763. Grundlage der Bayesschen Statistik und des Maschinenlernens. Gegenintuitiv: Ein positiver Test bei 1% Basisrate und 99% Sensitivität liefert nur 50% Wahrscheinlichkeit einer Erkrankung.",
+    "beispiel": "Medizinischer Test: Krankheit tritt mit 1% auf (P(K) = 0,01). Test ist 95% sensitiv: P(+|K) = 0,95. Falsch-Positiv-Rate: 5%: P(+|¬K) = 0,05. P(K|+) = (0,95×0,01)/(0,95×0,01 + 0,05×0,99) ≈ 16%.",
+    "anwendung": "Medizinische Diagnostik, Spam-Filter, Machine Learning, Forensik, Risikoanalyse",
+    "quellen": [
+      "Bayes, T. (1763). An essay towards solving a problem in the doctrine of chances. Philosophical Transactions."
+    ],
+    "verwandte": [
+      "normalverteilung",
+      "erwartungswert",
+      "stochastik-grundlagen"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  },
+  {
+    "slug": "normalverteilung",
+    "name": "Normalverteilung (Gaußsche Glockenkurve)",
+    "latex": "f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
+    "symbol": "f(x) = 1/(σ√2π) · e^(−(x−μ)²/2σ²)",
+    "kategorie": "mathematik",
+    "unterkategorie": "Stochastik",
+    "beschreibung": "Die Normalverteilung ist die wichtigste Wahrscheinlichkeitsverteilung — sie beschreibt viele natürliche Phänomene.",
+    "einheiten": "f(x) in 1/[x] · μ und σ in gleicher Einheit wie x",
+    "variablen": [
+      {
+        "symbol": "μ",
+        "bedeutung": "Erwartungswert (Mittelwert)",
+        "einheit": "gleich wie X"
+      },
+      {
+        "symbol": "σ",
+        "bedeutung": "Standardabweichung",
+        "einheit": "gleich wie X"
+      },
+      {
+        "symbol": "σ²",
+        "bedeutung": "Varianz",
+        "einheit": "Quadrat davon"
+      }
+    ],
+    "hintergrund": "Carl Friedrich Gauß verwendete sie 1809 zur Beschreibung von Messfehlern. Zentraler Grenzwertsatz: Summen vieler unabhängiger Zufallsvariablen sind normalverteilt. 68-95-99,7-Regel: 68% der Werte liegen in μ±σ, 95% in μ±2σ, 99,7% in μ±3σ.",
+    "beispiel": "Körpergröße Männer: μ = 178 cm, σ = 7 cm. P(165 < X < 191) = P(μ−2σ < X < μ+2σ) ≈ 95%.",
+    "anwendung": "Qualitätskontrolle (6-Sigma-Methode), Finanzmathematik (Black-Scholes), Bildverarbeitung, IQ-Tests",
+    "quellen": [
+      "Gauß, C.F. (1809). Theoria Motus Corporum Coelestium. Hamburg."
+    ],
+    "verwandte": [
+      "bayes-theorem",
+      "standardabweichung",
+      "zentralgrenzwertsatz"
+    ],
+    "abiturRelevant": true,
+    "schwierigkeit": "fortgeschritten"
+  }
+]

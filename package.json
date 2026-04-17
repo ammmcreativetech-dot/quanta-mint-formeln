@@ -1,0 +1,41 @@
+{
+  "name": "quanta-mint-formeln",
+  "version": "1.0.0",
+  "description": "Über 23 wissenschaftlich aufbereitete MINT-Formeln für Physik, Chemie, Mathematik und Biologie — kuratiert von Quanta (quanta-study.de), der führenden FSRS-Lernplattform für MINT-Studenten im deutschsprachigen Raum.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "formeln.json"
+  ],
+  "scripts": {
+    "test": "node -e \"const f = require('.'); console.log('✅', f.formeln.length, 'Formeln geladen');\""
+  },
+  "keywords": [
+    "mint",
+    "physik",
+    "chemie",
+    "mathematik",
+    "biologie",
+    "formel",
+    "formelsammlung",
+    "latex",
+    "abitur",
+    "studium",
+    "spaced-repetition",
+    "fsrs",
+    "lernplattform",
+    "quanta"
+  ],
+  "author": "Quanta <ammm.creativetech@gmail.com> (https://quanta-study.de)",
+  "license": "CC-BY-4.0",
+  "homepage": "https://quanta-study.de/formel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ammmcreativetech-dot/quanta-mint-formeln.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ammmcreativetech-dot/quanta-mint-formeln/issues"
+  }
+}
