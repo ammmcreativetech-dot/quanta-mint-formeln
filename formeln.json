@@ -1345,7 +1345,7 @@
     "symbol": "v = Vmax·[S] / (Km + [S])",
     "kategorie": "biologie",
     "unterkategorie": "Biochemie",
-    "beschreibung": "Die Michaelis-Menten-Gleichung beschreibt die Abhängigkeit der Enzymreaktionsgeschwindigkeit von der Substratkonzentration — zentrales Modell der Enzymkinetik.",
+    "beschreibung": "Die Michaelis-Menten-Gleichung beschreibt die Abhängigkeit der Enzymreaktionsgeschwindigkeit von der Substratkonzentration. Dieses Modell ist ein zentrales Modell der Enzymkinetik.",
     "einheiten": "v in mol/(L·s), Vmax in mol/(L·s), [S] in mol/L, Km in mol/L",
     "variablen": [
       {
@@ -1390,7 +1390,7 @@
     "symbol": "dN/dt = r·N·(1 − N/K)",
     "kategorie": "biologie",
     "unterkategorie": "Populationsbiologie",
-    "beschreibung": "Die Differentialgleichung des logistischen Wachstums beschreibt Populationswachstum mit Kapazitätsgrenze — realistisches Modell für alle biologischen Populationen.",
+    "beschreibung": "Die Differentialgleichung des logistischen Wachstums beschreibt Populationswachstum mit Kapazitätsgrenze und ist ein realistisches Modell für biologische Populationen.",
     "einheiten": "N in Individuen, r in 1/Zeit, K in Individuen, t in Zeit",
     "variablen": [
       {
