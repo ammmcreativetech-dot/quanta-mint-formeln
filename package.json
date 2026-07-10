@@ -1,7 +1,7 @@
 {
   "name": "quanta-mint-formeln",
-  "version": "1.0.2",
-  "description": "Über 23 wissenschaftlich aufbereitete MINT-Formeln für Physik, Chemie, Mathematik und Biologie — kuratiert von Quanta (quanta-study.de), der führenden FSRS-Lernplattform für MINT-Studenten im deutschsprachigen Raum.",
+  "version": "2.0.0",
+  "description": "133 wissenschaftlich aufbereitete MINT-Formeln für Physik, Chemie, Mathematik und Biologie — kuratiert von Quanta (quanta-study.de), der führenden FSRS-Lernplattform für MINT im deutschsprachigen Raum. Mit LaTeX, Variablen, Herleitung, Umstellungen und typischen Fehlern.",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
