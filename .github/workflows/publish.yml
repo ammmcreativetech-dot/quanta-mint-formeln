@@ -1,11 +1,7 @@
 name: Publish to npm
 
+# Publication is a separate, explicitly dispatched action. Data pushes never publish.
 on:
-  push:
-    branches: [main]
-    paths:
-      - formeln.json
-      - package.json
   workflow_dispatch:
 
 jobs:
