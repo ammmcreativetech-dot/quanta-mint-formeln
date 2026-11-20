@@ -1,0 +1,304 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Quanta reference table metadata index; no values or article content",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "scope",
+    "entries"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "scope": {
+      "const": "reference-table-index-only"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "tableId",
+          "title",
+          "group",
+          "edition",
+          "checkedOn",
+          "dateMetadataBasis",
+          "urls",
+          "canonicalUrls",
+          "columns",
+          "rowCount",
+          "sources"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "maxLength": 322,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?:--[a-z0-9]+(?:-[a-z0-9]+)*)?$"
+          },
+          "kind": {
+            "enum": [
+              "main-table",
+              "supplement"
+            ]
+          },
+          "tableId": {
+            "type": "string",
+            "maxLength": 160,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "supplementId": {
+            "type": "string",
+            "maxLength": 160,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "title": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "de",
+              "en"
+            ],
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            }
+          },
+          "group": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "de",
+              "en"
+            ],
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120
+              }
+            }
+          },
+          "edition": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "de",
+              "en"
+            ],
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              }
+            }
+          },
+          "checkedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "dateMetadataBasis": {
+            "enum": [
+              "table-source-declared",
+              "parent-table-source-declared"
+            ]
+          },
+          "urls": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "de",
+              "en"
+            ],
+            "properties": {
+              "de": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://",
+                "maxLength": 2048
+              },
+              "en": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://",
+                "maxLength": 2048
+              }
+            }
+          },
+          "canonicalUrls": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "de",
+              "en"
+            ],
+            "properties": {
+              "de": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://",
+                "maxLength": 2048
+              },
+              "en": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://",
+                "maxLength": 2048
+              }
+            }
+          },
+          "columns": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 32,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "key",
+                "label"
+              ],
+              "properties": {
+                "key": {
+                  "type": "string",
+                  "maxLength": 96,
+                  "pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$"
+                },
+                "label": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "de",
+                    "en"
+                  ],
+                  "properties": {
+                    "de": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    "en": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "rowCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 32,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "href"
+              ],
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "de",
+                    "en"
+                  ],
+                  "properties": {
+                    "de": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 400
+                    },
+                    "en": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 400
+                    }
+                  }
+                },
+                "href": {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https://",
+                  "maxLength": 2048
+                }
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "supplement"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "supplementId"
+              ],
+              "properties": {
+                "supplementId": {
+                  "type": "string",
+                  "maxLength": 160,
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "dateMetadataBasis": {
+                  "const": "parent-table-source-declared"
+                }
+              }
+            },
+            "else": {
+              "not": {
+                "required": [
+                  "supplementId"
+                ],
+                "properties": {
+                  "supplementId": {}
+                }
+              },
+              "properties": {
+                "dateMetadataBasis": {
+                  "const": "table-source-declared"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

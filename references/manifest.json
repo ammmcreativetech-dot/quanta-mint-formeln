@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactKind": "reference-table-index-only",
+  "packageVersion": "3.0.0",
+  "sourceCommit": "99ae5619a30cd0a3e883ddd8da8c23f1199fa416",
+  "sourceUrl": "https://quanta-study.de/tafelwerk",
+  "mainTableCount": 19,
+  "supplementCount": 14,
+  "indexEntryCount": 33,
+  "exportedRowCount": 0,
+  "formulaCountContribution": 0,
+  "locales": [
+    "de",
+    "en"
+  ],
+  "license": "CC-BY-4.0",
+  "files": {
+    "reference-index.json": {
+      "sha256": "3afd8e03b0e987bef16e3a9078af373293dd29c5082afc18b2551e1e5cad53fd",
+      "bytes": 76873
+    },
+    "reference-index.schema.json": {
+      "sha256": "aea7a36ef81433a0a590a3797b3fc8aa998255709d02ffcb910da4fea78f9d91",
+      "bytes": 7971
+    },
+    "README.md": {
+      "sha256": "55c77752f66c572d1a8aa8614f8ddf6443e9fff5fca23d6106adc1f9d43edce6",
+      "bytes": 1281
+    }
+  }
+}

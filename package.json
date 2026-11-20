@@ -1,39 +1,47 @@
 {
   "name": "quanta-mint-formeln",
-  "version": "2.0.0",
-  "description": "133 wissenschaftlich aufbereitete MINT-Formeln für Physik, Chemie, Mathematik und Biologie — kuratiert von Quanta (quanta-study.de), der führenden FSRS-Lernplattform für MINT im deutschsprachigen Raum. Mit LaTeX, Variablen, Herleitung, Umstellungen und typischen Fehlern.",
+  "version": "3.0.0",
+  "description": "Compact German STEM formula reference data with LaTeX, variable metadata, source references and TypeScript helpers.",
+  "private": false,
+  "type": "commonjs",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
+    "formeln.json",
     "index.js",
     "index.d.ts",
-    "formeln.json"
+    "schema.json",
+    "README.md",
+    "CITATION.cff",
+    "LICENSE",
+    "LICENSE-SCOPE.md",
+    "CHANGELOG.md",
+    "manifest.json",
+    "test",
+    "references",
+    "release-config.json",
+    "scripts/generate-subsets.mjs"
   ],
   "scripts": {
-    "test": "node -e \"const f = require('.'); console.log('✅', f.formeln.length, 'Formeln geladen');\""
+    "test": "node --test test/contract.test.cjs"
   },
   "keywords": [
-    "mint",
-    "physik",
-    "chemie",
-    "mathematik",
-    "biologie",
-    "formel",
-    "formelsammlung",
+    "dataset",
+    "formula",
     "latex",
-    "abitur",
-    "studium",
-    "spaced-repetition",
-    "fsrs",
-    "lernplattform",
-    "quanta"
+    "stem",
+    "typescript",
+    "quanta-study"
   ],
-  "author": "Quanta <ammm.creativetech@gmail.com> (https://quanta-study.de)",
+  "author": {
+    "name": "Quanta Study / AM Creative Tech UG (haftungsbeschränkt)",
+    "url": "https://quanta-study.de/"
+  },
   "license": "CC-BY-4.0",
-  "homepage": "https://quanta-study.de/formel",
+  "homepage": "https://quanta-study.de/tafelwerk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ammmcreativetech-dot/quanta-mint-formeln.git"
+    "url": "git+https://github.com/ammmcreativetech-dot/quanta-mint-formeln.git"
   },
   "bugs": {
     "url": "https://github.com/ammmcreativetech-dot/quanta-mint-formeln/issues"

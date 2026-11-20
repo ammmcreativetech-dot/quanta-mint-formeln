@@ -1,0 +1,2532 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": "reference-table-index-only",
+  "entries": [
+    {
+      "id": "si-basiseinheiten",
+      "kind": "main-table",
+      "tableId": "si-basiseinheiten",
+      "title": {
+        "de": "SI-Basiseinheiten",
+        "en": "SI base units"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-basiseinheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-basiseinheiten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-basiseinheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-basiseinheiten"
+      },
+      "columns": [
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Basisgröße",
+            "en": "Base quantity"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "symbol",
+          "label": {
+            "de": "Zeichen",
+            "en": "Symbol"
+          }
+        }
+      ],
+      "rowCount": 7,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM: SI-Broschüre",
+            "en": "BIPM: SI Brochure"
+          },
+          "href": "https://www.bipm.org/en/publications/si-brochure"
+        }
+      ]
+    },
+    {
+      "id": "si-abgeleitete-einheiten",
+      "kind": "main-table",
+      "tableId": "si-abgeleitete-einheiten",
+      "title": {
+        "de": "Abgeleitete SI-Einheiten mit eigenem Namen",
+        "en": "Named derived SI units"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-abgeleitete-einheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-abgeleitete-einheiten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-abgeleitete-einheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-abgeleitete-einheiten"
+      },
+      "columns": [
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Größe",
+            "en": "Quantity"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "symbol",
+          "label": {
+            "de": "Zeichen",
+            "en": "Symbol"
+          }
+        },
+        {
+          "key": "definition",
+          "label": {
+            "de": "In SI-Basiseinheiten",
+            "en": "In SI base units"
+          }
+        }
+      ],
+      "rowCount": 22,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM: SI-Broschüre",
+            "en": "BIPM: SI Brochure"
+          },
+          "href": "https://www.bipm.org/en/publications/si-brochure"
+        }
+      ]
+    },
+    {
+      "id": "si-praefixe",
+      "kind": "main-table",
+      "tableId": "si-praefixe",
+      "title": {
+        "de": "SI-Präfixe",
+        "en": "SI prefixes"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "BIPM-Präfixliste, einschließlich der 2022 beschlossenen Präfixe",
+        "en": "BIPM prefix list, including prefixes adopted in 2022"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-praefixe",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-praefixe"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-praefixe",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-praefixe"
+      },
+      "columns": [
+        {
+          "key": "name",
+          "label": {
+            "de": "Präfix",
+            "en": "Prefix"
+          }
+        },
+        {
+          "key": "symbol",
+          "label": {
+            "de": "Zeichen",
+            "en": "Symbol"
+          }
+        },
+        {
+          "key": "factor",
+          "label": {
+            "de": "Faktor",
+            "en": "Factor"
+          }
+        }
+      ],
+      "rowCount": 24,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM: SI-Präfixe",
+            "en": "BIPM: SI prefixes"
+          },
+          "href": "https://www.bipm.org/en/measurement-units/si-prefixes"
+        }
+      ]
+    },
+    {
+      "id": "binaerpraefixe",
+      "kind": "main-table",
+      "tableId": "binaerpraefixe",
+      "title": {
+        "de": "Binärpräfixe für Datenmengen",
+        "en": "Binary prefixes for data quantities"
+      },
+      "group": {
+        "de": "Einheiten und Informatik",
+        "en": "Units and computing"
+      },
+      "edition": {
+        "de": "IEC 80000-13:2025; BIPM SI-Broschüre, Version 4.01, Abschnitt 3",
+        "en": "IEC 80000-13:2025; BIPM SI Brochure, version 4.01, Section 3"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/binaerpraefixe",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/binaerpraefixe"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/binaerpraefixe",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/binaerpraefixe"
+      },
+      "columns": [
+        {
+          "key": "name",
+          "label": {
+            "de": "Präfix",
+            "en": "Prefix"
+          }
+        },
+        {
+          "key": "symbol",
+          "label": {
+            "de": "Zeichen",
+            "en": "Symbol"
+          }
+        },
+        {
+          "key": "factor",
+          "label": {
+            "de": "Faktor",
+            "en": "Factor"
+          }
+        }
+      ],
+      "rowCount": 10,
+      "sources": [
+        {
+          "label": {
+            "de": "NIST SP 330: Binärpräfixe, Abschnitt 3",
+            "en": "NIST SP 330: binary prefixes, Section 3"
+          },
+          "href": "https://www.nist.gov/pml/special-publication-330/sp-330-section-3"
+        },
+        {
+          "label": {
+            "de": "BIPM: aktuelle Binärpräfixe, Abschnitt 3",
+            "en": "BIPM: current binary prefixes, Section 3"
+          },
+          "href": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9.pdf"
+        },
+        {
+          "label": {
+            "de": "IEC 80000-13:2025: Erweiterung der Binärpräfixe",
+            "en": "IEC 80000-13:2025: additional binary prefixes"
+          },
+          "href": "https://webstore.iec.ch/en/publication/87379"
+        }
+      ]
+    },
+    {
+      "id": "fundamentale-konstanten",
+      "kind": "main-table",
+      "tableId": "fundamentale-konstanten",
+      "title": {
+        "de": "Ausgewählte Naturkonstanten",
+        "en": "Selected fundamental constants"
+      },
+      "group": {
+        "de": "Naturkonstanten",
+        "en": "Physical constants"
+      },
+      "edition": {
+        "de": "CODATA 2022; SI-Definitionen seit 2019",
+        "en": "CODATA 2022; SI definitions effective since 2019"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/fundamentale-konstanten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/fundamentale-konstanten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/fundamentale-konstanten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/fundamentale-konstanten"
+      },
+      "columns": [
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Größe",
+            "en": "Quantity"
+          }
+        },
+        {
+          "key": "symbol",
+          "label": {
+            "de": "Zeichen",
+            "en": "Symbol"
+          }
+        },
+        {
+          "key": "value",
+          "label": {
+            "de": "Wert",
+            "en": "Value"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "uncertainty",
+          "label": {
+            "de": "Unsicherheit",
+            "en": "Uncertainty"
+          }
+        }
+      ],
+      "rowCount": 34,
+      "sources": [
+        {
+          "label": {
+            "de": "NIST: CODATA-Konstanten",
+            "en": "NIST: CODATA constants"
+          },
+          "href": "https://physics.nist.gov/cuu/Constants/"
+        },
+        {
+          "label": {
+            "de": "NIST: vollständige CODATA-2022-Werteliste",
+            "en": "NIST: complete CODATA 2022 values"
+          },
+          "href": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt"
+        }
+      ]
+    },
+    {
+      "id": "si-umrechnungen",
+      "kind": "main-table",
+      "tableId": "si-umrechnungen",
+      "title": {
+        "de": "Häufige Umrechnungen ins SI",
+        "en": "Common conversions to SI"
+      },
+      "group": {
+        "de": "Umrechnungen",
+        "en": "Conversions"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-umrechnungen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-umrechnungen"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-umrechnungen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-umrechnungen"
+      },
+      "columns": [
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Größe",
+            "en": "Quantity"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Ausgangseinheit",
+            "en": "Input unit"
+          }
+        },
+        {
+          "key": "conversion",
+          "label": {
+            "de": "Entsprechung",
+            "en": "Equivalent"
+          }
+        }
+      ],
+      "rowCount": 33,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM: SI-Broschüre",
+            "en": "BIPM: SI Brochure"
+          },
+          "href": "https://www.bipm.org/en/publications/si-brochure"
+        },
+        {
+          "label": {
+            "de": "IUPAC Gold Book: Standardatmosphäre",
+            "en": "IUPAC Gold Book: standard atmosphere"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S05906"
+        }
+      ]
+    },
+    {
+      "id": "astronomische-laengeneinheiten",
+      "kind": "main-table",
+      "tableId": "astronomische-laengeneinheiten",
+      "title": {
+        "de": "Astronomische Längeneinheiten",
+        "en": "Astronomical distance units"
+      },
+      "group": {
+        "de": "Astronomie",
+        "en": "Astronomy"
+      },
+      "edition": {
+        "de": "IAU 2012 B2 (au), IAU 2015 B2 (pc); julianisches Jahr und SI",
+        "en": "IAU 2012 B2 (au), IAU 2015 B2 (pc); Julian year and SI"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/astronomische-laengeneinheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/astronomische-laengeneinheiten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/astronomische-laengeneinheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/astronomische-laengeneinheiten"
+      },
+      "columns": [
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "symbol",
+          "label": {
+            "de": "Zeichen",
+            "en": "Symbol"
+          }
+        },
+        {
+          "key": "value",
+          "label": {
+            "de": "In Metern",
+            "en": "In metres"
+          }
+        }
+      ],
+      "rowCount": 9,
+      "sources": [
+        {
+          "label": {
+            "de": "IAU: Resolution B2 zur Astronomischen Einheit",
+            "en": "IAU: Resolution B2 on the astronomical unit"
+          },
+          "href": "https://iauarchive.eso.org/static/resolutions/IAU2012_English.pdf"
+        },
+        {
+          "label": {
+            "de": "BIPM: SI-Broschüre",
+            "en": "BIPM: SI Brochure"
+          },
+          "href": "https://www.bipm.org/en/publications/si-brochure"
+        },
+        {
+          "label": {
+            "de": "IAU 2015 B2, exakte Parsecdefinition",
+            "en": "IAU 2015 B2, exact parsec definition"
+          },
+          "href": "https://arxiv.org/abs/1510.06262"
+        }
+      ]
+    },
+    {
+      "id": "chemische-referenzzustaende",
+      "kind": "main-table",
+      "tableId": "chemische-referenzzustaende",
+      "title": {
+        "de": "Chemische Referenzzustände",
+        "en": "Chemical reference conventions"
+      },
+      "group": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      },
+      "edition": {
+        "de": "IUPAC Gold Book, 5. Ausgabe, Onlineversion 5.0.0 (2025)",
+        "en": "IUPAC Gold Book, 5th edition, online version 5.0.0 (2025)"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/chemische-referenzzustaende",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/chemische-referenzzustaende"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/chemische-referenzzustaende",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/chemische-referenzzustaende"
+      },
+      "columns": [
+        {
+          "key": "term",
+          "label": {
+            "de": "Begriff",
+            "en": "Term"
+          }
+        },
+        {
+          "key": "value",
+          "label": {
+            "de": "Referenz",
+            "en": "Reference"
+          }
+        },
+        {
+          "key": "note",
+          "label": {
+            "de": "Hinweis",
+            "en": "Note"
+          }
+        }
+      ],
+      "rowCount": 5,
+      "sources": [
+        {
+          "label": {
+            "de": "IUPAC Gold Book: Standarddruck",
+            "en": "IUPAC Gold Book: standard pressure"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S05921"
+        },
+        {
+          "label": {
+            "de": "IUPAC Gold Book: Standardkonzentration",
+            "en": "IUPAC Gold Book: standard concentration"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S05909"
+        },
+        {
+          "label": {
+            "de": "IUPAC Gold Book: STP",
+            "en": "IUPAC Gold Book: STP"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S06036"
+        },
+        {
+          "label": {
+            "de": "IUPAC Gold Book: Standardzustand",
+            "en": "IUPAC Gold Book: standard state"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S05925"
+        }
+      ]
+    },
+    {
+      "id": "standard-reduktionspotentiale",
+      "kind": "main-table",
+      "tableId": "standard-reduktionspotentiale",
+      "title": {
+        "de": "Ausgewählte Standard-Reduktionspotentiale",
+        "en": "Selected standard reduction potentials"
+      },
+      "group": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      },
+      "edition": {
+        "de": "NIST-Referenzdaten und OpenStax Chemistry 2e, Tabelle 17.1",
+        "en": "NIST reference data and OpenStax Chemistry 2e, Table 17.1"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/standard-reduktionspotentiale",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/standard-reduktionspotentiale"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/standard-reduktionspotentiale",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/standard-reduktionspotentiale"
+      },
+      "columns": [
+        {
+          "key": "halfReaction",
+          "label": {
+            "de": "Reduktions-Halbreaktion",
+            "en": "Reduction half-reaction"
+          }
+        },
+        {
+          "key": "potential",
+          "label": {
+            "de": "E° in V",
+            "en": "E° in V"
+          }
+        },
+        {
+          "key": "reference",
+          "label": {
+            "de": "Wertquelle",
+            "en": "Value reference"
+          }
+        }
+      ],
+      "rowCount": 26,
+      "sources": [
+        {
+          "label": {
+            "de": "NIST: Standardpotentiale bei 298,15 K",
+            "en": "NIST: standard potentials at 298.15 K"
+          },
+          "href": "https://srd.nist.gov/JPCRD/jpcrd355.pdf"
+        },
+        {
+          "label": {
+            "de": "NIST: Zink-Standardpotentiale bei 298,15 K",
+            "en": "NIST: zinc standard potentials at 298.15 K"
+          },
+          "href": "https://www.nist.gov/system/files/documents/srd/jpcrd444.pdf"
+        },
+        {
+          "label": {
+            "de": "OpenStax Chemistry 2e: Tabelle 17.1 (25 °C)",
+            "en": "OpenStax Chemistry 2e: Table 17.1 (25 °C)"
+          },
+          "href": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+        }
+      ]
+    },
+    {
+      "id": "spektralklassen-sterne",
+      "kind": "main-table",
+      "tableId": "spektralklassen-sterne",
+      "title": {
+        "de": "Spektralklassen von Sternen und Braunen Zwergen",
+        "en": "Spectral classes of stars and brown dwarfs"
+      },
+      "group": {
+        "de": "Astronomie",
+        "en": "Astronomy"
+      },
+      "edition": {
+        "de": "OpenStax Astronomy 2e, Tabelle 17.2, geprüft 2026-09-30",
+        "en": "OpenStax Astronomy 2e, Table 17.2, checked 2026-09-30"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/spektralklassen-sterne",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/spektralklassen-sterne"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/spektralklassen-sterne",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/spektralklassen-sterne"
+      },
+      "columns": [
+        {
+          "key": "class",
+          "label": {
+            "de": "Klasse",
+            "en": "Class"
+          }
+        },
+        {
+          "key": "temperature",
+          "label": {
+            "de": "Ungefähre Temperatur (K)",
+            "en": "Approximate temperature (K)"
+          }
+        },
+        {
+          "key": "color",
+          "label": {
+            "de": "Farbe",
+            "en": "Color"
+          }
+        },
+        {
+          "key": "features",
+          "label": {
+            "de": "Typische Spektralmerkmale",
+            "en": "Typical spectral features"
+          }
+        }
+      ],
+      "rowCount": 10,
+      "sources": [
+        {
+          "label": {
+            "de": "OpenStax Astronomy 2e, §17.3 und Tabelle 17.2",
+            "en": "OpenStax Astronomy 2e, §17.3 and Table 17.2"
+          },
+          "href": "https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs"
+        },
+        {
+          "label": {
+            "de": "JGU Mainz, Modulhandbuch BSc Physik 2026",
+            "en": "JGU Mainz, BSc Physics module handbook 2026"
+          },
+          "href": "https://studienbuero.physik.uni-mainz.de/ModulHandbuecher/current/Modulhandbuch_BSc_Physik.html"
+        },
+        {
+          "label": {
+            "de": "OpenStax Astronomy 2e: Spektrum und Schwarzkörperstrahlung",
+            "en": "OpenStax Astronomy 2e: spectra and blackbody radiation"
+          },
+          "href": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum"
+        }
+      ]
+    },
+    {
+      "id": "saeure-basen-konstanten",
+      "kind": "main-table",
+      "tableId": "saeure-basen-konstanten",
+      "title": {
+        "de": "pKs- und pKb-Werte konjugierter Säure-Base-Paare",
+        "en": "pKa and pKb values of conjugate acid–base pairs"
+      },
+      "group": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      },
+      "edition": {
+        "de": "OpenStax Chemistry 2e, Anhänge H/I; Werte bei 25 °C",
+        "en": "OpenStax Chemistry 2e, Appendices H/I; values at 25 °C"
+      },
+      "checkedOn": "2026-11-07",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/saeure-basen-konstanten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/saeure-basen-konstanten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/saeure-basen-konstanten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/saeure-basen-konstanten"
+      },
+      "columns": [
+        {
+          "key": "name",
+          "label": {
+            "de": "Name",
+            "en": "Name"
+          }
+        },
+        {
+          "key": "acid",
+          "label": {
+            "de": "Säureformel",
+            "en": "Acid formula"
+          }
+        },
+        {
+          "key": "base",
+          "label": {
+            "de": "Konjugierte Base",
+            "en": "Conjugate base"
+          }
+        },
+        {
+          "key": "pka",
+          "label": {
+            "de": "pKs = pKa",
+            "en": "pKa"
+          }
+        },
+        {
+          "key": "pkb",
+          "label": {
+            "de": "pKb der Base",
+            "en": "pKb of base"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 10,
+      "sources": [
+        {
+          "label": {
+            "de": "H: OpenStax, schwache Säuren bei 25 °C",
+            "en": "H: OpenStax, weak acids at 25 °C"
+          },
+          "href": "https://openstax.org/books/chemistry-2e/pages/h-ionization-constants-of-weak-acids"
+        },
+        {
+          "label": {
+            "de": "I: OpenStax, schwache Basen bei 25 °C",
+            "en": "I: OpenStax, weak bases at 25 °C"
+          },
+          "href": "https://openstax.org/books/chemistry-2e/pages/i-ionization-constants-of-weak-bases"
+        },
+        {
+          "label": {
+            "de": "IQB/KMK, S. 52: Wasser bei 298,15 K",
+            "en": "IQB/KMK, p. 52: water at 298.15 K"
+          },
+          "href": "https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Physik/M_Mathematisch-naturwissenschaftliche_Formelsammlung.pdf#page=52"
+        }
+      ]
+    },
+    {
+      "id": "saeure-base-indikatoren",
+      "kind": "main-table",
+      "tableId": "saeure-base-indikatoren",
+      "title": {
+        "de": "Säure-Base-Indikatoren: Umschlagsbereiche und Farben",
+        "en": "Acid–base indicators: transition ranges and colours"
+      },
+      "group": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      },
+      "edition": {
+        "de": "IQB/KMK-Formelsammlung, Stand 04.07.2023, S. 63 bis 64",
+        "en": "IQB/KMK formula collection, 4 July 2023 edition, pp. 63 to 64"
+      },
+      "checkedOn": "2026-11-07",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/saeure-base-indikatoren",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/saeure-base-indikatoren"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/saeure-base-indikatoren",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/saeure-base-indikatoren"
+      },
+      "columns": [
+        {
+          "key": "indicator",
+          "label": {
+            "de": "Indikator",
+            "en": "Indicator"
+          }
+        },
+        {
+          "key": "range",
+          "label": {
+            "de": "pH-Umschlagsbereich",
+            "en": "pH transition range"
+          }
+        },
+        {
+          "key": "low",
+          "label": {
+            "de": "Unterhalb",
+            "en": "Below range"
+          }
+        },
+        {
+          "key": "high",
+          "label": {
+            "de": "Oberhalb",
+            "en": "Above range"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 9,
+      "sources": [
+        {
+          "label": {
+            "de": "IQB/KMK: Indikatorwerte, S. 63–64",
+            "en": "IQB/KMK: indicator values, pp. 63–64"
+          },
+          "href": "https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Physik/M_Mathematisch-naturwissenschaftliche_Formelsammlung.pdf#page=63"
+        }
+      ]
+    },
+    {
+      "id": "stoffdichten",
+      "kind": "main-table",
+      "tableId": "stoffdichten",
+      "title": {
+        "de": "Dichte ausgewählter Stoffe und Materialien",
+        "en": "Density of selected substances and materials"
+      },
+      "group": {
+        "de": "Stoffdaten",
+        "en": "Material properties"
+      },
+      "edition": {
+        "de": "IQB/KMK-Formelsammlung, Stand 04.07.2023, S. 53",
+        "en": "IQB/KMK formula collection, 4 July 2023 edition, p. 53"
+      },
+      "checkedOn": "2026-11-07",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/stoffdichten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/stoffdichten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/stoffdichten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/stoffdichten"
+      },
+      "columns": [
+        {
+          "key": "substance",
+          "label": {
+            "de": "Stoff / Material",
+            "en": "Substance / material"
+          }
+        },
+        {
+          "key": "density",
+          "label": {
+            "de": "ρ in g/cm³",
+            "en": "ρ in g/cm³"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Zustand und Bezug",
+            "en": "Phase and conditions"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 10,
+      "sources": [
+        {
+          "label": {
+            "de": "IQB/KMK: Dichtewerte und Bezugstemperaturen, S. 53",
+            "en": "IQB/KMK: densities and reference temperatures, p. 53"
+          },
+          "href": "https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Physik/M_Mathematisch-naturwissenschaftliche_Formelsammlung.pdf#page=53"
+        }
+      ]
+    },
+    {
+      "id": "spezifische-waermekapazitaeten",
+      "kind": "main-table",
+      "tableId": "spezifische-waermekapazitaeten",
+      "title": {
+        "de": "Spezifische Wärmekapazitäten bei 25 °C",
+        "en": "Specific heat capacities at 25 °C"
+      },
+      "group": {
+        "de": "Stoffdaten",
+        "en": "Material properties"
+      },
+      "edition": {
+        "de": "NIST Chemistry WebBook und IQB/KMK; ausgewählte Werte bei 298,15 K",
+        "en": "NIST Chemistry WebBook and IQB/KMK; selected values at 298.15 K"
+      },
+      "checkedOn": "2026-11-07",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/spezifische-waermekapazitaeten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/spezifische-waermekapazitaeten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/spezifische-waermekapazitaeten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/spezifische-waermekapazitaeten"
+      },
+      "columns": [
+        {
+          "key": "substance",
+          "label": {
+            "de": "Stoff",
+            "en": "Substance"
+          }
+        },
+        {
+          "key": "capacity",
+          "label": {
+            "de": "cp in kJ/(kg·K)",
+            "en": "cp in kJ/(kg·K)"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Zustand und Bezug",
+            "en": "Phase and conditions"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 5,
+      "sources": [
+        {
+          "label": {
+            "de": "IQB/KMK, S. 52: Wasser",
+            "en": "IQB/KMK, p. 52: water"
+          },
+          "href": "https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Physik/M_Mathematisch-naturwissenschaftliche_Formelsammlung.pdf#page=52"
+        },
+        {
+          "label": {
+            "de": "NIST: Ethanol, Cp bei 298,15 K (Petrov et al., 1989)",
+            "en": "NIST: ethanol, Cp at 298.15 K (Petrov et al., 1989)"
+          },
+          "href": "https://webbook.nist.gov/cgi/cbook.cgi?Name=ethanol&cTC=on"
+        },
+        {
+          "label": {
+            "de": "NIST: Glycerin, Cp bei 298,15 K (Bastos et al., 1988)",
+            "en": "NIST: glycerol, Cp at 298.15 K (Bastos et al., 1988)"
+          },
+          "href": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C56815&Mask=2&Units=SI"
+        },
+        {
+          "label": {
+            "de": "NIST-JANAF: Aluminium, festes Shomate-Modell",
+            "en": "NIST-JANAF: aluminium, solid-phase Shomate model"
+          },
+          "href": "https://webbook.nist.gov/cgi/cbook.cgi?Name=aluminum&cTC=on"
+        },
+        {
+          "label": {
+            "de": "NIST-JANAF: Kupfer, festes Shomate-Modell",
+            "en": "NIST-JANAF: copper, solid-phase Shomate model"
+          },
+          "href": "https://webbook.nist.gov/cgi/cbook.cgi?Name=copper&cTC=on&cTG=on&cTP=on"
+        }
+      ]
+    },
+    {
+      "id": "schmelz-siedepunkte",
+      "kind": "main-table",
+      "tableId": "schmelz-siedepunkte",
+      "title": {
+        "de": "Schmelz- und Siedepunkte ausgewählter Stoffe",
+        "en": "Melting and boiling points of selected substances"
+      },
+      "group": {
+        "de": "Stoffdaten",
+        "en": "Material properties"
+      },
+      "edition": {
+        "de": "IQB/KMK-Formelsammlung, S. 58 bis 59; CO₂-Phasengrenze nach NIST",
+        "en": "IQB/KMK formula collection, pp. 58 to 59; CO₂ phase boundary from NIST"
+      },
+      "checkedOn": "2026-11-07",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/schmelz-siedepunkte",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/schmelz-siedepunkte"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/schmelz-siedepunkte",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/schmelz-siedepunkte"
+      },
+      "columns": [
+        {
+          "key": "substance",
+          "label": {
+            "de": "Stoff",
+            "en": "Substance"
+          }
+        },
+        {
+          "key": "melting",
+          "label": {
+            "de": "Schmelzen (°C)",
+            "en": "Melting (°C)"
+          }
+        },
+        {
+          "key": "boiling",
+          "label": {
+            "de": "Sieden (°C)",
+            "en": "Boiling (°C)"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Bedingung / Besonderheit",
+            "en": "Condition / distinction"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 6,
+      "sources": [
+        {
+          "label": {
+            "de": "IQB/KMK: Schmelz- und Siedewerte, S. 58–59",
+            "en": "IQB/KMK: melting and boiling values, pp. 58–59"
+          },
+          "href": "https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Physik/M_Mathematisch-naturwissenschaftliche_Formelsammlung.pdf#page=58"
+        },
+        {
+          "label": {
+            "de": "NIST: CO₂-Tripeldruck 5,185 bar",
+            "en": "NIST: CO₂ triple-point pressure 5.185 bar"
+          },
+          "href": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Mask=4"
+        }
+      ]
+    },
+    {
+      "id": "genetischer-standardcode",
+      "kind": "main-table",
+      "tableId": "genetischer-standardcode",
+      "title": {
+        "de": "Genetischer Code: alle 64 RNA-Codons",
+        "en": "Genetic code: all 64 RNA codons"
+      },
+      "group": {
+        "de": "Genetik",
+        "en": "Genetics"
+      },
+      "edition": {
+        "de": "NCBI: genetischer Standardcode, transl_table=1, Quellenstand 23.09.2024; RNA-Schreibweise U statt T",
+        "en": "NCBI standard genetic code, transl_table=1, source updated 23 September 2024; RNA notation U instead of T"
+      },
+      "checkedOn": "2026-11-10",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/genetischer-standardcode",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/genetischer-standardcode"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/genetischer-standardcode",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/genetischer-standardcode"
+      },
+      "columns": [
+        {
+          "key": "codon",
+          "label": {
+            "de": "mRNA-Codon 5′ → 3′",
+            "en": "mRNA codon 5′ → 3′"
+          }
+        },
+        {
+          "key": "aminoAcid",
+          "label": {
+            "de": "Aminosäure / Signal",
+            "en": "Amino acid / signal"
+          }
+        },
+        {
+          "key": "three",
+          "label": {
+            "de": "Dreibuchstabencode",
+            "en": "Three-letter code"
+          }
+        },
+        {
+          "key": "one",
+          "label": {
+            "de": "Einbuchstabencode",
+            "en": "One-letter code"
+          }
+        },
+        {
+          "key": "role",
+          "label": {
+            "de": "Bedeutung",
+            "en": "Meaning"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Beleg",
+            "en": "Source"
+          }
+        }
+      ],
+      "rowCount": 64,
+      "sources": [
+        {
+          "label": {
+            "de": "NCBI: Standardcode und Initiationskontext",
+            "en": "NCBI: standard code and initiation context"
+          },
+          "href": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG1"
+        },
+        {
+          "label": {
+            "de": "IUPAC-IUB: Aminosäurekürzel, Tabelle 1",
+            "en": "IUPAC-IUB: amino-acid symbols, Table 1"
+          },
+          "href": "https://iupac.qmul.ac.uk/AminoAcid/AA1n2.html#AA1"
+        },
+        {
+          "label": {
+            "de": "OpenStax Biology 2e, 15.5: Translation und Lesrichtung",
+            "en": "OpenStax Biology 2e, 15.5: translation and reading direction"
+          },
+          "href": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis"
+        }
+      ]
+    },
+    {
+      "id": "nuklidmassen-zerfallsdaten",
+      "kind": "main-table",
+      "tableId": "nuklidmassen-zerfallsdaten",
+      "title": {
+        "de": "Nuklidtabelle: Atommassen und Halbwertszeiten",
+        "en": "Nuclide table: atomic masses and half-lives"
+      },
+      "group": {
+        "de": "Kernphysik",
+        "en": "Nuclear physics"
+      },
+      "edition": {
+        "de": "AME2020 und NUBASE2020, veröffentlicht 2021; Atommassen in u, F-18-Kanäle ergänzend BIPM-5",
+        "en": "AME2020 and NUBASE2020, published in 2021; atomic-mass values in u, F-18 channels supplemented by BIPM-5"
+      },
+      "checkedOn": "2026-11-10",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/nuklidmassen-zerfallsdaten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/nuklidmassen-zerfallsdaten"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/nuklidmassen-zerfallsdaten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/nuklidmassen-zerfallsdaten"
+      },
+      "columns": [
+        {
+          "key": "isotope",
+          "label": {
+            "de": "Nuklid",
+            "en": "Nuclide"
+          }
+        },
+        {
+          "key": "z",
+          "label": {
+            "de": "Protonen Z",
+            "en": "Protons Z"
+          }
+        },
+        {
+          "key": "n",
+          "label": {
+            "de": "Neutronen N",
+            "en": "Neutrons N"
+          }
+        },
+        {
+          "key": "mass",
+          "label": {
+            "de": "Neutralatomare Masse (u)",
+            "en": "Neutral-atom mass (u)"
+          }
+        },
+        {
+          "key": "halfLife",
+          "label": {
+            "de": "Halbwertszeit T½",
+            "en": "Half-life T½"
+          }
+        },
+        {
+          "key": "decay",
+          "label": {
+            "de": "Zerfallsart / Hauptkanal",
+            "en": "Decay mode / dominant channel"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 16,
+      "sources": [
+        {
+          "label": {
+            "de": "AME2020: evaluierte neutralatomare Massen",
+            "en": "AME2020: evaluated neutral-atom masses"
+          },
+          "href": "https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt"
+        },
+        {
+          "label": {
+            "de": "NUBASE2020: Halbwertszeiten, Stabilität und Zerfallsarten",
+            "en": "NUBASE2020: half-lives, stability and decay modes"
+          },
+          "href": "https://www-nds.iaea.org/amdc/ame2020/nubase_4.mas20.txt"
+        },
+        {
+          "label": {
+            "de": "BIPM-5, Band 1: β⁺ und Elektroneneinfang bei ¹⁸F",
+            "en": "BIPM-5, volume 1: β⁺ and electron capture in fluorine-18"
+          },
+          "href": "https://www.bipm.org/documents/20126/53814638/Monographie%20BIPM-5%20-%20Volume%201%20%282004%29.pdf/724745da-8db0-0396-5370-1065e8122573#page=45"
+        }
+      ]
+    },
+    {
+      "id": "elektrische-materialkennwerte",
+      "kind": "main-table",
+      "tableId": "elektrische-materialkennwerte",
+      "title": {
+        "de": "Elektrische Materialkennwerte: Widerstand und Permittivität",
+        "en": "Electrical material properties: resistivity and permittivity"
+      },
+      "group": {
+        "de": "Elektrizität und Stoffdaten",
+        "en": "Electricity and material properties"
+      },
+      "edition": {
+        "de": "OpenStax: University Physics Vol. 2, Tabelle 9.1; College Physics, Tabelle 19.1",
+        "en": "OpenStax: University Physics Vol. 2, Table 9.1; College Physics, Table 19.1"
+      },
+      "checkedOn": "2026-11-10",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/elektrische-materialkennwerte",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/elektrische-materialkennwerte"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/elektrische-materialkennwerte",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/elektrische-materialkennwerte"
+      },
+      "columns": [
+        {
+          "key": "material",
+          "label": {
+            "de": "Material",
+            "en": "Material"
+          }
+        },
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Größe",
+            "en": "Quantity"
+          }
+        },
+        {
+          "key": "value",
+          "label": {
+            "de": "Richtwert",
+            "en": "Guide value"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Bedingungen und Status",
+            "en": "Conditions and status"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 14,
+      "sources": [
+        {
+          "label": {
+            "de": "R: OpenStax, spezifische Widerstände bei 20 °C, Tabelle 9.1",
+            "en": "R: OpenStax, resistivities at 20 °C, Table 9.1"
+          },
+          "href": "https://openstax.org/books/university-physics-volume-2/pages/9-3-resistivity-and-resistance"
+        },
+        {
+          "label": {
+            "de": "D: OpenStax, Dielektrizitätskonstanten bei 20 °C, Tabelle 19.1",
+            "en": "D: OpenStax, dielectric constants at 20 °C, Table 19.1"
+          },
+          "href": "https://openstax.org/books/college-physics/pages/19-5-capacitors-and-dielectrics"
+        }
+      ]
+    },
+    {
+      "id": "brechzahlen",
+      "kind": "main-table",
+      "tableId": "brechzahlen",
+      "title": {
+        "de": "Brechzahlen: Wasser, Luft, Glas und weitere Stoffe",
+        "en": "Refractive indices: water, air, glass and other materials"
+      },
+      "group": {
+        "de": "Optik und Stoffdaten",
+        "en": "Optics and material properties"
+      },
+      "edition": {
+        "de": "OpenStax University Physics Vol. 3, Tabelle 1.1; SCHOTT N-BK7, Stand 01.12.2023, und TIE-29",
+        "en": "OpenStax University Physics Vol. 3, Table 1.1; SCHOTT N-BK7, 1 December 2023 data sheet, and TIE-29"
+      },
+      "checkedOn": "2026-11-10",
+      "dateMetadataBasis": "table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/brechzahlen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/brechzahlen"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/brechzahlen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/brechzahlen"
+      },
+      "columns": [
+        {
+          "key": "material",
+          "label": {
+            "de": "Medium",
+            "en": "Medium"
+          }
+        },
+        {
+          "key": "index",
+          "label": {
+            "de": "Brechzahl n",
+            "en": "Refractive index n"
+          }
+        },
+        {
+          "key": "wavelength",
+          "label": {
+            "de": "Wellenlänge",
+            "en": "Wavelength"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Temperatur und Druck",
+            "en": "Temperature and pressure"
+          }
+        },
+        {
+          "key": "reference",
+          "label": {
+            "de": "Referenz und Status",
+            "en": "Reference and status"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Wertbeleg",
+            "en": "Value source"
+          }
+        }
+      ],
+      "rowCount": 10,
+      "sources": [
+        {
+          "label": {
+            "de": "O: OpenStax, Brechzahlen bei 589 nm, Tabelle 1.1",
+            "en": "O: OpenStax, refractive indices at 589 nm, Table 1.1"
+          },
+          "href": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        },
+        {
+          "label": {
+            "de": "S: SCHOTT N-BK7, Brechzahlen an den F-, d- und C-Linien",
+            "en": "S: SCHOTT N-BK7, indices at the F, d and C lines"
+          },
+          "href": "https://media.schott.com/api/public/content/41e799d0bf874807a0bb8e702fbb75b5?v=54856406"
+        },
+        {
+          "label": {
+            "de": "SCHOTT TIE-29, Abschnitte 1 und 5: Luftbezug und Bedingungen",
+            "en": "SCHOTT TIE-29, Sections 1 and 5: air reference and conditions"
+          },
+          "href": "https://media.schott.com/api/public/content/8afd09ccdf4243e890df9f875b1b5579?v=ce5367ec"
+        },
+        {
+          "label": {
+            "de": "NIST: Luftbrechzahl und atmosphärische Bedingungen",
+            "en": "NIST: air refractive index and atmospheric conditions"
+          },
+          "href": "https://www.nist.gov/publications/index-refraction-air"
+        },
+        {
+          "label": {
+            "de": "IAPWS R9-97: Wasserbrechzahl als Zustandsfunktion",
+            "en": "IAPWS R9-97: water refractive index as a state-dependent property"
+          },
+          "href": "https://iapws.org/technical-guidance/release/Rindex"
+        }
+      ]
+    },
+    {
+      "id": "binaerpraefixe--binary-decimal-comparison",
+      "kind": "supplement",
+      "tableId": "binaerpraefixe",
+      "supplementId": "binary-decimal-comparison",
+      "title": {
+        "de": "Binäre Datenmengen in dezimalen Einheiten",
+        "en": "Binary quantities in decimal units"
+      },
+      "group": {
+        "de": "Einheiten und Informatik",
+        "en": "Units and computing"
+      },
+      "edition": {
+        "de": "IEC 80000-13:2025; BIPM SI-Broschüre, Version 4.01, Abschnitt 3",
+        "en": "IEC 80000-13:2025; BIPM SI Brochure, version 4.01, Section 3"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/binaerpraefixe#reference-supplement-binary-decimal-comparison",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/binaerpraefixe#reference-supplement-binary-decimal-comparison"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/binaerpraefixe",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/binaerpraefixe"
+      },
+      "columns": [
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "bytes",
+          "label": {
+            "de": "In Byte (exakt)",
+            "en": "In bytes (exact)"
+          }
+        },
+        {
+          "key": "decimal",
+          "label": {
+            "de": "Dezimaler Vergleich",
+            "en": "Decimal comparison"
+          }
+        },
+        {
+          "key": "bits",
+          "label": {
+            "de": "In Bit (exakt)",
+            "en": "In bits (exact)"
+          }
+        }
+      ],
+      "rowCount": 10,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM: Präfixdefinitionen",
+            "en": "BIPM: prefix definitions"
+          },
+          "href": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9.pdf"
+        },
+        {
+          "label": {
+            "de": "NIST: Byte und Bit",
+            "en": "NIST: byte and bit"
+          },
+          "href": "https://physics.nist.gov/cuu/Units/binary.html"
+        }
+      ]
+    },
+    {
+      "id": "si-basiseinheiten--si-defining-constants",
+      "kind": "supplement",
+      "tableId": "si-basiseinheiten",
+      "supplementId": "si-defining-constants",
+      "title": {
+        "de": "Die sieben Definitionskonstanten",
+        "en": "The seven defining constants"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-basiseinheiten#reference-supplement-si-defining-constants",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-basiseinheiten#reference-supplement-si-defining-constants"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-basiseinheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-basiseinheiten"
+      },
+      "columns": [
+        {
+          "key": "constant",
+          "label": {
+            "de": "Konstante",
+            "en": "Constant"
+          }
+        },
+        {
+          "key": "symbol",
+          "label": {
+            "de": "Zeichen",
+            "en": "Symbol"
+          }
+        },
+        {
+          "key": "value",
+          "label": {
+            "de": "Exakter Zahlenwert",
+            "en": "Exact numerical value"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Bedingung und Bedeutung",
+            "en": "Condition and meaning"
+          }
+        }
+      ],
+      "rowCount": 7,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM, §2.2 und Tabelle 1: sämtliche sieben Werte",
+            "en": "BIPM §2.2 and Table 1: all seven values"
+          },
+          "href": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+        }
+      ]
+    },
+    {
+      "id": "si-basiseinheiten--si-base-dimensions",
+      "kind": "supplement",
+      "tableId": "si-basiseinheiten",
+      "supplementId": "si-base-dimensions",
+      "title": {
+        "de": "Basisgrößen: Größenzeichen und Dimensionen",
+        "en": "Base quantities: quantity and dimension symbols"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-basiseinheiten#reference-supplement-si-base-dimensions",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-basiseinheiten#reference-supplement-si-base-dimensions"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-basiseinheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-basiseinheiten"
+      },
+      "columns": [
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Basisgröße",
+            "en": "Base quantity"
+          }
+        },
+        {
+          "key": "quantitySymbol",
+          "label": {
+            "de": "Übliche Größenzeichen",
+            "en": "Usual quantity symbols"
+          }
+        },
+        {
+          "key": "dimension",
+          "label": {
+            "de": "Dimensionssymbol",
+            "en": "Dimension symbol"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Kohärente Basiseinheit",
+            "en": "Coherent base unit"
+          }
+        }
+      ],
+      "rowCount": 7,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM, §2.3.3, Tabelle 3",
+            "en": "BIPM §2.3.3, Table 3"
+          },
+          "href": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+        }
+      ]
+    },
+    {
+      "id": "si-abgeleitete-einheiten--si-common-derived-quantities",
+      "kind": "supplement",
+      "tableId": "si-abgeleitete-einheiten",
+      "supplementId": "si-common-derived-quantities",
+      "title": {
+        "de": "Weitere häufige abgeleitete Größen",
+        "en": "More common derived quantities"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-abgeleitete-einheiten#reference-supplement-si-common-derived-quantities",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-abgeleitete-einheiten#reference-supplement-si-common-derived-quantities"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-abgeleitete-einheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-abgeleitete-einheiten"
+      },
+      "columns": [
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Größe",
+            "en": "Quantity"
+          }
+        },
+        {
+          "key": "unit",
+          "label": {
+            "de": "Kohärente SI-Einheit",
+            "en": "Coherent SI unit"
+          }
+        },
+        {
+          "key": "base",
+          "label": {
+            "de": "In Basiseinheiten",
+            "en": "In base units"
+          }
+        },
+        {
+          "key": "note",
+          "label": {
+            "de": "Einordnung",
+            "en": "Interpretation"
+          }
+        }
+      ],
+      "rowCount": 20,
+      "sources": [
+        {
+          "label": {
+            "de": "NIST SP 811, §4.2 und Tabellen 2, 4: Größen und Einheiten",
+            "en": "NIST SP 811 §4.2 and Tables 2, 4: quantities and units"
+          },
+          "href": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes"
+        },
+        {
+          "label": {
+            "de": "BIPM, §2.3.4: kohärente Ableitungen und Größenunterschiede",
+            "en": "BIPM §2.3.4: coherent derivations and quantity distinctions"
+          },
+          "href": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+        }
+      ]
+    },
+    {
+      "id": "si-praefixe--si-prefix-area-volume",
+      "kind": "supplement",
+      "tableId": "si-praefixe",
+      "supplementId": "si-prefix-area-volume",
+      "title": {
+        "de": "Präfixe auf Länge, Fläche und Volumen",
+        "en": "Prefixes on length, area and volume"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "BIPM-Präfixliste, einschließlich der 2022 beschlossenen Präfixe",
+        "en": "BIPM prefix list, including prefixes adopted in 2022"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-praefixe#reference-supplement-si-prefix-area-volume",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-praefixe#reference-supplement-si-prefix-area-volume"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-praefixe",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-praefixe"
+      },
+      "columns": [
+        {
+          "key": "length",
+          "label": {
+            "de": "Länge",
+            "en": "Length"
+          }
+        },
+        {
+          "key": "area",
+          "label": {
+            "de": "Fläche",
+            "en": "Area"
+          }
+        },
+        {
+          "key": "volume",
+          "label": {
+            "de": "Volumen",
+            "en": "Volume"
+          }
+        }
+      ],
+      "rowCount": 8,
+      "sources": [
+        {
+          "label": {
+            "de": "NIST: Präfixfaktoren der acht ausgewählten Präfixe",
+            "en": "NIST: factors for the eight selected prefixes"
+          },
+          "href": "https://www.nist.gov/pml/owm/metric-si-prefixes"
+        },
+        {
+          "label": {
+            "de": "BIPM, Kapitel 3: Potenzen präfigierter Einheiten",
+            "en": "BIPM Chapter 3: powers of prefixed units"
+          },
+          "href": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+        }
+      ]
+    },
+    {
+      "id": "si-praefixe--si-prefix-compound-conversions",
+      "kind": "supplement",
+      "tableId": "si-praefixe",
+      "supplementId": "si-prefix-compound-conversions",
+      "title": {
+        "de": "Präfixe in Masse und zusammengesetzten Einheiten",
+        "en": "Prefixes in mass and compound units"
+      },
+      "group": {
+        "de": "Einheiten",
+        "en": "Units"
+      },
+      "edition": {
+        "de": "BIPM-Präfixliste, einschließlich der 2022 beschlossenen Präfixe",
+        "en": "BIPM prefix list, including prefixes adopted in 2022"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-praefixe#reference-supplement-si-prefix-compound-conversions",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-praefixe#reference-supplement-si-prefix-compound-conversions"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-praefixe",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-praefixe"
+      },
+      "columns": [
+        {
+          "key": "from",
+          "label": {
+            "de": "Ausgangseinheit",
+            "en": "Source unit"
+          }
+        },
+        {
+          "key": "to",
+          "label": {
+            "de": "Entsprechung",
+            "en": "Equivalent"
+          }
+        },
+        {
+          "key": "factor",
+          "label": {
+            "de": "Eingesetzte Faktoren",
+            "en": "Inserted factors"
+          }
+        },
+        {
+          "key": "note",
+          "label": {
+            "de": "Kontrolle",
+            "en": "Check"
+          }
+        }
+      ],
+      "rowCount": 6,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM, Kapitel 3: Grammregel und zusammengesetzte Einheiten",
+            "en": "BIPM Chapter 3: gram rule and compound units"
+          },
+          "href": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fundamentale-konstanten--konstanten-status",
+      "kind": "supplement",
+      "tableId": "fundamentale-konstanten",
+      "supplementId": "konstanten-status",
+      "title": {
+        "de": "Definition, Messwert und Rundung",
+        "en": "Definition, measurement and rounding"
+      },
+      "group": {
+        "de": "Naturkonstanten",
+        "en": "Physical constants"
+      },
+      "edition": {
+        "de": "CODATA 2022; SI-Definitionen seit 2019",
+        "en": "CODATA 2022; SI definitions effective since 2019"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/fundamentale-konstanten#reference-supplement-konstanten-status",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/fundamentale-konstanten#reference-supplement-konstanten-status"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/fundamentale-konstanten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/fundamentale-konstanten"
+      },
+      "columns": [
+        {
+          "key": "quantity",
+          "label": {
+            "de": "Größe",
+            "en": "Quantity"
+          }
+        },
+        {
+          "key": "relation",
+          "label": {
+            "de": "Zusammenhang",
+            "en": "Relationship"
+          }
+        },
+        {
+          "key": "status",
+          "label": {
+            "de": "Status",
+            "en": "Status"
+          }
+        },
+        {
+          "key": "meaning",
+          "label": {
+            "de": "Lesart",
+            "en": "Interpretation"
+          }
+        }
+      ],
+      "rowCount": 5,
+      "sources": [
+        {
+          "label": {
+            "de": "NIST CODATA 2022",
+            "en": "NIST CODATA 2022"
+          },
+          "href": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt"
+        }
+      ]
+    },
+    {
+      "id": "astronomische-laengeneinheiten--distanz-definitionen",
+      "kind": "supplement",
+      "tableId": "astronomische-laengeneinheiten",
+      "supplementId": "distanz-definitionen",
+      "title": {
+        "de": "Exakte Definitionen und Umrechnungsbasis",
+        "en": "Exact definitions and conversion basis"
+      },
+      "group": {
+        "de": "Astronomie",
+        "en": "Astronomy"
+      },
+      "edition": {
+        "de": "IAU 2012 B2 (au), IAU 2015 B2 (pc); julianisches Jahr und SI",
+        "en": "IAU 2012 B2 (au), IAU 2015 B2 (pc); Julian year and SI"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/astronomische-laengeneinheiten#reference-supplement-distanz-definitionen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/astronomische-laengeneinheiten#reference-supplement-distanz-definitionen"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/astronomische-laengeneinheiten",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/astronomische-laengeneinheiten"
+      },
+      "columns": [
+        {
+          "key": "unit",
+          "label": {
+            "de": "Einheit",
+            "en": "Unit"
+          }
+        },
+        {
+          "key": "definition",
+          "label": {
+            "de": "Exakte Definition",
+            "en": "Exact definition"
+          }
+        },
+        {
+          "key": "use",
+          "label": {
+            "de": "Einsatz",
+            "en": "Use"
+          }
+        }
+      ],
+      "rowCount": 5,
+      "sources": [
+        {
+          "label": {
+            "de": "IAU 2012 B2",
+            "en": "IAU 2012 B2"
+          },
+          "href": "https://iauarchive.eso.org/static/resolutions/IAU2012_English.pdf"
+        },
+        {
+          "label": {
+            "de": "IAU 2015 B2, Mamajek et al.",
+            "en": "IAU 2015 B2, Mamajek et al."
+          },
+          "href": "https://arxiv.org/abs/1510.06262"
+        },
+        {
+          "label": {
+            "de": "IAU: Messung des Universums",
+            "en": "IAU: Measuring the Universe"
+          },
+          "href": "https://iauarchive.eso.org/public/themes/measuring/"
+        }
+      ]
+    },
+    {
+      "id": "spektralklassen-sterne--leuchtkraftklassen",
+      "kind": "supplement",
+      "tableId": "spektralklassen-sterne",
+      "supplementId": "leuchtkraftklassen",
+      "title": {
+        "de": "Leuchtkraftklassen ergänzen den Spektraltyp",
+        "en": "Luminosity classes complement spectral type"
+      },
+      "group": {
+        "de": "Astronomie",
+        "en": "Astronomy"
+      },
+      "edition": {
+        "de": "OpenStax Astronomy 2e, Tabelle 17.2, geprüft 2026-09-30",
+        "en": "OpenStax Astronomy 2e, Table 17.2, checked 2026-09-30"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/spektralklassen-sterne#reference-supplement-leuchtkraftklassen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/spektralklassen-sterne#reference-supplement-leuchtkraftklassen"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/spektralklassen-sterne",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/spektralklassen-sterne"
+      },
+      "columns": [
+        {
+          "key": "class",
+          "label": {
+            "de": "Klasse",
+            "en": "Class"
+          }
+        },
+        {
+          "key": "name",
+          "label": {
+            "de": "Bezeichnung",
+            "en": "Name"
+          }
+        },
+        {
+          "key": "interpretation",
+          "label": {
+            "de": "Lesart",
+            "en": "Interpretation"
+          }
+        }
+      ],
+      "rowCount": 6,
+      "sources": [
+        {
+          "label": {
+            "de": "OpenStax Astronomy 2e §19.4",
+            "en": "OpenStax Astronomy 2e §19.4"
+          },
+          "href": "https://openstax.org/books/astronomy-2e/pages/19-4-the-h-r-diagram-and-cosmic-distances"
+        }
+      ]
+    },
+    {
+      "id": "si-umrechnungen--si-compound-extra",
+      "kind": "supplement",
+      "tableId": "si-umrechnungen",
+      "supplementId": "si-compound-extra",
+      "title": {
+        "de": "Weitere SI-Quotienten, Flüsse und Materialgrößen",
+        "en": "Additional SI ratios, flows and material properties"
+      },
+      "group": {
+        "de": "Umrechnungen",
+        "en": "Conversions"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-umrechnungen#reference-supplement-si-compound-extra",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-umrechnungen#reference-supplement-si-compound-extra"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-umrechnungen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-umrechnungen"
+      },
+      "columns": [
+        {
+          "key": "from",
+          "label": {
+            "de": "Ausgangseinheit",
+            "en": "Original unit"
+          }
+        },
+        {
+          "key": "to",
+          "label": {
+            "de": "Zieleinheit",
+            "en": "Target unit"
+          }
+        },
+        {
+          "key": "factor",
+          "label": {
+            "de": "Faktor",
+            "en": "Factor"
+          }
+        },
+        {
+          "key": "note",
+          "label": {
+            "de": "Größe/Kontrolle",
+            "en": "Quantity/check"
+          }
+        }
+      ],
+      "rowCount": 14,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM: SI-Einheiten und Präfixe",
+            "en": "BIPM: SI units and prefixes"
+          },
+          "href": "https://www.bipm.org/en/publications/si-brochure"
+        }
+      ]
+    },
+    {
+      "id": "si-umrechnungen--legacy-energy-viscosity",
+      "kind": "supplement",
+      "tableId": "si-umrechnungen",
+      "supplementId": "legacy-energy-viscosity",
+      "title": {
+        "de": "Ältere Energie- und Viskositätseinheiten",
+        "en": "Legacy energy and viscosity units"
+      },
+      "group": {
+        "de": "Umrechnungen",
+        "en": "Conversions"
+      },
+      "edition": {
+        "de": "SI-Broschüre, 9. Ausgabe, aktuelle Onlinefassung 2026",
+        "en": "SI Brochure, 9th edition, current online version 2026"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-umrechnungen#reference-supplement-legacy-energy-viscosity",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-umrechnungen#reference-supplement-legacy-energy-viscosity"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/si-umrechnungen",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/si-umrechnungen"
+      },
+      "columns": [
+        {
+          "key": "from",
+          "label": {
+            "de": "Ausgangseinheit",
+            "en": "Original unit"
+          }
+        },
+        {
+          "key": "to",
+          "label": {
+            "de": "SI-Einheit",
+            "en": "SI unit"
+          }
+        },
+        {
+          "key": "factor",
+          "label": {
+            "de": "Faktor",
+            "en": "Factor"
+          }
+        },
+        {
+          "key": "note",
+          "label": {
+            "de": "Definition",
+            "en": "Definition"
+          }
+        }
+      ],
+      "rowCount": 5,
+      "sources": [
+        {
+          "label": {
+            "de": "NIST SP 811, Anhang B.8",
+            "en": "NIST SP 811, Appendix B.8"
+          },
+          "href": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+        }
+      ]
+    },
+    {
+      "id": "chemische-referenzzustaende--chemical-reference-details",
+      "kind": "supplement",
+      "tableId": "chemische-referenzzustaende",
+      "supplementId": "chemical-reference-details",
+      "title": {
+        "de": "Weitere Referenzkonventionen und Aktivitäten",
+        "en": "Additional reference conventions and activities"
+      },
+      "group": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      },
+      "edition": {
+        "de": "IUPAC Gold Book, 5. Ausgabe, Onlineversion 5.0.0 (2025)",
+        "en": "IUPAC Gold Book, 5th edition, online version 5.0.0 (2025)"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/chemische-referenzzustaende#reference-supplement-chemical-reference-details",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/chemische-referenzzustaende#reference-supplement-chemical-reference-details"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/chemische-referenzzustaende",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/chemische-referenzzustaende"
+      },
+      "columns": [
+        {
+          "key": "term",
+          "label": {
+            "de": "Begriff",
+            "en": "Term"
+          }
+        },
+        {
+          "key": "value",
+          "label": {
+            "de": "Referenz/Beziehung",
+            "en": "Reference/relation"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Bedingung",
+            "en": "Condition"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Zeilenquelle",
+            "en": "Row source"
+          }
+        }
+      ],
+      "rowCount": 7,
+      "sources": [
+        {
+          "label": {
+            "de": "IUPAC: Standardzustand",
+            "en": "IUPAC: standard state"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S05925"
+        },
+        {
+          "label": {
+            "de": "IUPAC: Standardmolalität",
+            "en": "IUPAC: standard molality"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S05918"
+        },
+        {
+          "label": {
+            "de": "IUPAC: Aktivität",
+            "en": "IUPAC: activity"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/A00115"
+        }
+      ]
+    },
+    {
+      "id": "chemische-referenzzustaende--ideal-molar-volumes-four",
+      "kind": "supplement",
+      "tableId": "chemische-referenzzustaende",
+      "supplementId": "ideal-molar-volumes-four",
+      "title": {
+        "de": "Vier klar bezeichnete ideale molare Gasvolumina",
+        "en": "Four explicitly specified ideal molar gas volumes"
+      },
+      "group": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      },
+      "edition": {
+        "de": "IUPAC Gold Book, 5. Ausgabe, Onlineversion 5.0.0 (2025)",
+        "en": "IUPAC Gold Book, 5th edition, online version 5.0.0 (2025)"
+      },
+      "checkedOn": "2026-09-30",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/chemische-referenzzustaende#reference-supplement-ideal-molar-volumes-four",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/chemische-referenzzustaende#reference-supplement-ideal-molar-volumes-four"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/chemische-referenzzustaende",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/chemische-referenzzustaende"
+      },
+      "columns": [
+        {
+          "key": "temperature",
+          "label": {
+            "de": "Temperatur",
+            "en": "Temperature"
+          }
+        },
+        {
+          "key": "pressure",
+          "label": {
+            "de": "Absolutdruck",
+            "en": "Absolute pressure"
+          }
+        },
+        {
+          "key": "volume",
+          "label": {
+            "de": "Vₘ im idealen Modell",
+            "en": "Vₘ in the ideal model"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Modell",
+            "en": "Model"
+          }
+        }
+      ],
+      "rowCount": 4,
+      "sources": [
+        {
+          "label": {
+            "de": "BIPM: SI-Definitionskonstanten",
+            "en": "BIPM: SI defining constants"
+          },
+          "href": "https://www.bipm.org/en/publications/si-brochure"
+        },
+        {
+          "label": {
+            "de": "IUPAC: Standardbedingungen für Gase",
+            "en": "IUPAC: standard conditions for gases"
+          },
+          "href": "https://goldbook.iupac.org/terms/view/S05910"
+        }
+      ]
+    },
+    {
+      "id": "standard-reduktionspotentiale--redox-additional-conditioned",
+      "kind": "supplement",
+      "tableId": "standard-reduktionspotentiale",
+      "supplementId": "redox-additional-conditioned",
+      "title": {
+        "de": "Elf weitere Standard-Reduktionsreaktionen mit explizitem Medium",
+        "en": "Eleven further standard reductions with explicit medium"
+      },
+      "group": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      },
+      "edition": {
+        "de": "NIST-Referenzdaten und OpenStax Chemistry 2e, Tabelle 17.1",
+        "en": "NIST reference data and OpenStax Chemistry 2e, Table 17.1"
+      },
+      "checkedOn": "2026-10-01",
+      "dateMetadataBasis": "parent-table-source-declared",
+      "urls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/standard-reduktionspotentiale#reference-supplement-redox-additional-conditioned",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/standard-reduktionspotentiale#reference-supplement-redox-additional-conditioned"
+      },
+      "canonicalUrls": {
+        "de": "https://quanta-study.de/tafelwerk/tabellen/standard-reduktionspotentiale",
+        "en": "https://quanta-study.de/en/formula-sheet/tables/standard-reduktionspotentiale"
+      },
+      "columns": [
+        {
+          "key": "halfReaction",
+          "label": {
+            "de": "Reduktions-Halbreaktion",
+            "en": "Reduction half-reaction"
+          }
+        },
+        {
+          "key": "potential",
+          "label": {
+            "de": "E° gegen SHE",
+            "en": "E° versus SHE"
+          }
+        },
+        {
+          "key": "electrons",
+          "label": {
+            "de": "Elektronen n",
+            "en": "Electrons n"
+          }
+        },
+        {
+          "key": "condition",
+          "label": {
+            "de": "Zusätzliche Zeilenbedingungen",
+            "en": "Additional row conditions"
+          }
+        },
+        {
+          "key": "source",
+          "label": {
+            "de": "Zeilenquelle",
+            "en": "Row source"
+          }
+        }
+      ],
+      "rowCount": 11,
+      "sources": [
+        {
+          "label": {
+            "de": "OpenStax Chemistry 2e, Tabelle 17.1",
+            "en": "OpenStax Chemistry 2e, Table 17.1"
+          },
+          "href": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+        }
+      ]
+    }
+  ]
+}

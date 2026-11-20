@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:quanta:compact-formula-references:schema:3:all",
+  "title": "Quanta Study compact German formula references",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "slug",
+      "name",
+      "latex",
+      "symbol",
+      "kategorie",
+      "kapitel",
+      "unterkategorie",
+      "bildungsniveaus",
+      "schwierigkeit",
+      "abiturRelevant",
+      "variablen",
+      "quellen",
+      "quellenLinks",
+      "url"
+    ],
+    "properties": {
+      "slug": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100,
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160
+      },
+      "latex": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1024
+      },
+      "symbol": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256
+      },
+      "kategorie": {
+        "type": "string",
+        "enum": [
+          "physik",
+          "chemie",
+          "mathematik",
+          "biologie",
+          "astronomie",
+          "informatik",
+          "ingenieurwesen"
+        ]
+      },
+      "kapitel": {
+        "type": "string",
+        "enum": [
+          "astro-bahnen-gravitation",
+          "astro-entfernung-kosmologie",
+          "astro-sterne-strahlung",
+          "bio-biochemie-molekularbiologie",
+          "bio-biostatistik",
+          "bio-genetik-evolution",
+          "bio-oekologie-population",
+          "bio-physiologie",
+          "che-analytik-spektroskopie",
+          "che-elektrochemie",
+          "che-gase-energetik",
+          "che-gleichgewicht",
+          "che-kinetik",
+          "che-saeure-base",
+          "che-stoechiometrie",
+          "info-algorithmen-darstellung",
+          "info-digitale-signale",
+          "info-information-codierung",
+          "info-information-datenanalyse",
+          "info-rechnerleistung",
+          "ing-elektrotechnik-regelung",
+          "ing-fluidtechnik",
+          "ing-maschinenelemente",
+          "ing-mechanik-werkstoffe",
+          "ing-thermodynamik-transport",
+          "mat-algebra",
+          "mat-analysis",
+          "mat-analytische-geometrie",
+          "mat-funktionen-folgen",
+          "mat-geometrie-trigonometrie",
+          "mat-stochastik",
+          "phy-atom-kernphysik",
+          "phy-elektrizitaet",
+          "phy-mechanik",
+          "phy-optik",
+          "phy-schwingungen-wellen",
+          "phy-waermelehre"
+        ]
+      },
+      "unterkategorie": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 80
+      },
+      "bildungsniveaus": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 5,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "sek1",
+            "sek2",
+            "hochschulbruecke",
+            "bachelor",
+            "fachvertiefung"
+          ]
+        }
+      },
+      "schwierigkeit": {
+        "type": "string",
+        "enum": [
+          "grundlegend",
+          "fortgeschritten",
+          "universitaet"
+        ]
+      },
+      "abiturRelevant": {
+        "type": "boolean"
+      },
+      "variablen": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 16,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "symbol",
+            "bedeutung",
+            "einheit"
+          ],
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 64
+            },
+            "bedeutung": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "einheit": {
+              "type": "string",
+              "minLength": 0,
+              "maxLength": 128
+            }
+          }
+        }
+      },
+      "quellen": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 16,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512
+        }
+      },
+      "quellenLinks": {
+        "type": "array",
+        "maxItems": 16,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048,
+          "format": "uri",
+          "pattern": "^https?://[^\\s]+$"
+        }
+      },
+      "url": {
+        "type": "string",
+        "pattern": "^https://quanta-study\\.de/tafelwerk/[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    }
+  }
+}

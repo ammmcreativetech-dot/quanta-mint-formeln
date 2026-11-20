@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite the exact repository version and preserve its source references. Version metadata describes these files, not npm publication."
+type: dataset
+title: "Quanta Study compact German formula references — quanta-mint-formeln"
+authors:
+  - name: "AM Creative Tech UG (haftungsbeschränkt)"
+    website: "https://quanta-study.de/"
+version: "3.0.0"
+license: CC-BY-4.0
+url: "https://quanta-study.de/tafelwerk"
+repository-code: "https://github.com/ammmcreativetech-dot/quanta-mint-formeln"
+abstract: "770 compact German formula reference records with notation, variable metadata and source references. Full articles and worked solutions are excluded."
